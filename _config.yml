@@ -226,7 +226,9 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-plugins_dir: [jekyll-scholar] 
+#plugins_dir: [jekyll-scholar] 
+#scholar:
+#  style: modern-language-association
 
 # Sitemap settings
 defaults:
@@ -274,7 +276,7 @@ scholar:
   first_name: [Stella]
 
   style: apa
-  locale: en
+  locale: da
 
   source: /_bibliography/
   bibliography: papers.bib

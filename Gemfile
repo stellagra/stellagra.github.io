@@ -16,8 +16,8 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-#    gem 'therubyracer' # 
-    #gem 'mini_racer' # MiniRacer provides a minimal two way bridge between the V8 JavaScript engine and Ruby. It was created as an alternative to the excellent therubyracer, which is no longer maintained. Unlike therubyracer, mini_racer only implements a minimal bridge.
+ #   gem 'therubyracer' # 
+#    gem 'mini_racer' # MiniRacer provides a minimal two way bridge between the V8 JavaScript engine and Ruby. It was created as an alternative to the excellent therubyracer, which is no longer maintained. Unlike therubyracer, mini_racer only implements a minimal bridge.
     gem 'unicode_utils'
     gem 'webrick'
 end
