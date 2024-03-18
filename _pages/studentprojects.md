@@ -11,4 +11,4 @@ horizontal: false
 
 <!-- pages/studentprojects.md -->
 So far I had the pleasure of supervising over 50 student projects of different kinds.
-
+A list of past and current projects will follow. 
