@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am working as an Assistant Professor at the [IT University of Copenhagen](https://en.itu.dk/). 
-My reserach focus is human-centred Machine Learning. 
+My research focus is human-centred Machine Learning. 
 Currently, I am co-supervising three PhD students:
 - Martin Lund Trinhammer with Sami S. Brandt
 - Luiza Ribeiro Marnet with Andrzej Wąsowski and Yury Brodskiy
