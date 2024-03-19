@@ -1,0 +1,13 @@
+this file is just a placeholder:
+
+
+to do_: change the about thing
+generating face images, change of expression
+detection of fake images, generated images
+analysis of human motion
+
+multi-modal
+
+
+I am affiliate [Pioneer Centre for AI ](https://www.aicentre.dk/). 
+board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin).

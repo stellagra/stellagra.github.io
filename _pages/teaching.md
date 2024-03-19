@@ -1,21 +1,23 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Short description of my teaching activity.
+title: Teaching Activities 
+description: Short description of my teaching activities. (to be completed)
 nav: true
 nav_order: 6
 ---
 
-# Teaching Activities 
-
 ## IT University of Copenhagen
-- since Spring 2024: "Applied Statistics" for the Data Science 2nd semester, during spring
-- each autumn, since 2019 "Advanced Machine Learning" for Master Computer Science students
+- *Applied Statistics*,
+  for Data Science BSc 2nd semester, since 2024
+- *Advanced Machine Learning*, 
+  Computer Science MSc, since 2019
+ 
 
 ## Leibniz University of Hannover
-- Course Manager for Practical Course “Tracking with Matlab”, 2nd semester for students in electrical engineering
+- *Tracking with Matlab*,
+2nd semester students 
 - During my PhD I had the pleasure of being teaching assistant for the following courses: 
-    - “Statistical Methods for Information Processing”
-    - “Information Theory”
+    - *Statistical Methods for Information Processing*
+    - *Information Theory*
 

@@ -52,8 +52,6 @@
 
 <!-- Styles -->
 
-  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
-
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="http://localhost:4000/">
 
@@ -126,8 +124,6 @@
             
           
             
-          
-            
               
                 <li class="nav-item ">
                   
@@ -175,7 +171,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/teaching/">teaching
+                  <a class="nav-link" href="/teaching/">Teaching Activities
                     
                   </a>
                 </li>
@@ -253,18 +249,22 @@
 
     <div class="clearfix">
 <p>I am working as an Assistant Professor at the <a href="https://en.itu.dk/" rel="external nofollow noopener" target="_blank">IT University of Copenhagen</a>. 
-My research focus is human-centred Machine Learning. 
-Currently, I am co-supervising three PhD students:</p>
+My research focus is human-centred Machine Learning, specifically analysis and synthesis of human faces and skeleton data. 
+Proud part of the <a href="https://www.aicentre.dk/" rel="external nofollow noopener" target="_blank">Pioneer Centre for AI</a>, and board member of the <a href="https://lundbeckfonden.com/lfin" rel="external nofollow noopener" target="_blank">Lundbeck Foundation Investigator Network</a>.</p>
+
+<p>Currently, I am co-supervising three PhD students:</p>
 <ul>
   <li>Martin Lund Trinhammer with Sami S. Brandt</li>
   <li>Luiza Ribeiro Marnet with Andrzej Wąsowski and Yury Brodskiy</li>
-  <li>Magnus Ibh with Dan Witzner Hansen</li>
+  <li>Magnus Ibh with Dan Witzner Hansen and Pascal Madeleine</li>
 </ul>
 
 <p>Previously co-supervised PhD students:</p>
 <ul>
   <li>René Haas with Sami S. Brandt</li>
 </ul>
+
+<p>(This website is still work in progress.)</p>
 </div>
 
     <!-- News -->
@@ -314,9 +314,7 @@ Currently, I am co-supervising three PhD students:</p>
             <th scope="row" style="width: 20%">Nov 24, 2023</th>
             <td>
               
-                Today was the defense of the very first student I had the pleasure to officially co-supervise as a PhD student: René Haas, and I could not be prouder. 
-Shortly, after I started working at ITU 2019 we started working together with Sami S. Brandt, on a research project, followed by a Master thesis. This lead to a proposal for a PhD project, which got accepted. Today René defended his thesis with great success. 
-A big thank you also to the committee!
+                Today René Haas defended his PhD thesis!
 
               
             </td>
@@ -343,10 +341,10 @@ A big thank you also to the committee!
         
         
           <tr>
-            <th scope="row" style="width: 20%">Feb 25, 2024</th>
+            <th scope="row" style="width: 20%">Nov 24, 2023</th>
             <td>
               
-                <a class="news-title" href="/blog/2024/first-post/">a post to start with posts</a>
+                <a class="news-title" href="/blog/2023/first-post/">René's PhD defense</a>
               
             </td>
           </tr>
@@ -364,7 +362,268 @@ A big thank you also to the committee!
         <a href="/publications/" style="color: inherit">selected publications</a>
       </h2>
       <div class="publications">
-  <ol class="bibliography"></ol>
+  <ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="grashof_multilinear_2021" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Multilinear Modelling of Faces and Expressions</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Stella
+            Graßhof
+          , Hanno
+            Ackermann
+          , Sami Sebastian
+            Brandt
+          , and
+        <span class="more-authors" title="click to view 1 more author" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '1 more author' ? 'Jörn Ostermann' : '1 more author';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">1 more author</span>
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>,  Oct 2021
+    </div>
+    <div class="periodical">
+      IEEE Transactions on Pattern Analysis and Machine Intelligence
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>In this work, we present a new versatile 3D multilinear statistical face model, based on a tensor factorisation of 3D face scans, that decomposes the shapes into person and expression subspaces. Investigation of the expression subspace reveals an inherent low-dimensional substructure, and further, a star-shaped structure. This is due to two novel findings. (1) Increasing the strength of one emotion approximately forms a linear trajectory in the subspace. (2) All these trajectories intersect at a single point – not at the neutral expression as assumed by almost all prior works—but at an apathetic expression. We utilise these structural findings by reparameterising the expression subspace by the fourth-order moment tensor centred at the point of apathy. We propose a 3D face reconstruction method from single or multiple 2D projections by assuming an uncalibrated projective camera model. The non-linearity caused by the perspective projection can be neatly included into the model. The proposed algorithm separates person and expression subspaces convincingly, and enables flexible, natural modelling of expressions for a wide variety of human faces. Applying the method on independent faces showed that morphing between different persons and expressions can be performed without strong deformations.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="ibh_tempose_2023" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">TemPose: a new skeleton-based transformer model designed for fine-grained motion recognition in badminton</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Magnus
+            Ibh
+          , Stella
+            Graßhof
+          , Dan
+            Witzner
+          , and
+        <span class="more-authors" title="click to view 1 more author" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '1 more author' ? 'Pascal Madeleine' : '1 more author';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">1 more author</span>
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em> ,  Jun 2023
+    </div>
+    <div class="periodical">
+      ISSN: 2160-7516
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>This paper presents TemPose, a novel skeleton-based transformer model designed for fine-grained motion recognition to improve understanding of the detailed player actions in badminton. The model utilizes multiple temporal and interaction layers to capture variable-length multi-person human actions while minimizing reliance on non-human visual context. TemPose is evaluated on two fine-grained badminton datasets, where it significantly outperforms other baseline models by incorporating additional input streams, such as the shuttlecock position, into the temporal transformer layers of the model. Additionally, TemPose demonstrates great versatility by achieving competitive results compared to other state-of-the-art skeleton-based models on the large-scale action recognition benchmark NTU RGB+D. Experiments are conducted to explore how different model parameter configurations affect Tem-Pose’s performance. Additionally, a qualitative analysis of the temporal attention maps suggests that the model learns to prioritize frames of specific poses relevant to different actions while formulating an intuition of each individual’s importance in the sequences. Overall, TemPose is an intuitive and versatile architecture that has the potential to be further developed and incorporated into other methods for managing human motion in sports with state-of-the-art results.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="haas_controllable_2023" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Controllable GAN Synthesis Using Non-Rigid Structure-from-Motion</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      René
+            Haas
+          , Stella
+            Graßhof
+          , and Sami S.
+            Brandt
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em> ,  Jun 2023
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>In this paper, we present an approach for combining non-rigid structure-from-motion (NRSfM) with deep generative models, and propose an efficient framework for discovering trajectories in the latent space of 2D GANs corresponding to changes in 3D geometry. Our approach uses recent advances in NRSfM and enables editing of the camera and non-rigid shape information associated with the latent codes without needing to retrain the generator. This formulation provides an implicit dense 3D reconstruction as it enables the image synthesis of novel shapes from arbitrary view angles and non-rigid structure. The method is built upon a sparse backbone, where a neural regressor is first trained to regress parameters describing the cameras and sparse non-rigid structure directly from the latent codes. The latent trajectories associated with changes in the camera and structure parameters are then identified by estimating the local inverse of the regressor in the neighborhood of a given latent code. The experiments show that our approach provides a versatile, systematic way to model, analyze, and edit the geometry and non-rigid structures of faces.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
 </div>
 
     

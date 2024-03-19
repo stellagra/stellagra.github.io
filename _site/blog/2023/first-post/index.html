@@ -17,12 +17,12 @@
   
   
     
-      2024 | Stella Grasshof
+      René's PhD defense | Stella Grasshof
     
   
 </title>
 <meta name="author" content="Stella Grasshof">
-<meta name="description" content="">
+<meta name="description" content="Impressions from my first PhD defense on the other side.">
 
   <meta name="keywords" content="machine learning, academic, university">
 
@@ -54,10 +54,8 @@
 
 <!-- Styles -->
 
-  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
-
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="http://localhost:4000/blog/2024/">
+<link rel="canonical" href="http://localhost:4000/blog/2023/first-post/">
 
 <!-- Dark Mode -->
 
@@ -69,6 +67,10 @@
 
 
 <!-- diff2html -->
+
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css" integrity="sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY=" crossorigin="anonymous" media="screen and (prefers-color-scheme: light)">
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css" integrity="sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk=" crossorigin="anonymous" media="screen and (prefers-color-scheme: dark)">
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.47/bundles/css/diff2html.min.css" integrity="sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg=" crossorigin="anonymous">
 
 
 
@@ -136,10 +138,6 @@
             
           
             
-          
-            
-          
-            
               
                 <li class="nav-item ">
                   
@@ -187,7 +185,7 @@
               
                 <li class="nav-item ">
                   
-                  <a class="nav-link" href="/teaching/">teaching
+                  <a class="nav-link" href="/teaching/">Teaching Activities
                     
                   </a>
                 </li>
@@ -221,29 +219,66 @@
     <!-- Content -->
     <div class="container mt-5" role="main">
       
-        <div class="post">
+        
+
+
+
+
+
+
+
+<div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-<i class="fa-solid fa-calendar fa-sm"></i> 2024</h1>
-    <p class="post-description">an archive of posts from this year</p>
+    <h1 class="post-title">René's PhD defense</h1>
+    <p class="post-meta">
+      November 24, 2023
+      
+      
+    </p>
+    <p class="post-tags">
+      
+        <a href="/blog/2023"> <i class="fa-solid fa-calendar fa-sm"></i> 2023 </a>
+      
+      
+
+      
+          ·  
+        
+          
+            <a href="/blog/category/events">
+              <i class="fa-solid fa-tag fa-sm"></i> events</a>
+             
+          
+        
+      
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-          <tr>
-            <th scope="row">Feb 25, 2024</th>
-            <td>
-              
-                <a class="post-link" href="/blog/2024/first-post/">a post to start with posts</a>
-              
-            </td>
-          </tr>
-        
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>Today was the defense of the very first PhD student I had the pleasure to officially co-supervise: René Haas. I could not be prouder. Shortly, after I started working at ITU 2019 we started working together with Sami S. Brandt, on a research project titled <em>Synthesis of Face Images Using Generative Algorithms</em>. This project was then extended into a Master thesis <em>Exploring the latent space of StyleGAN for semantic face editing and expression transfer</em>. 
+This lead to a proposal for a PhD project, which got accepted, and the rest is history!</p>
+
+<p>And finally today René defended his thesis with the title <em>Deep Generative Models for Faces and Expressions</em> with great success. A big thank you also to the committee: <a href="https://veronikach.com/" rel="external nofollow noopener" target="_blank">Veronika Cheplygina</a>, <a href="https://fredkahl.github.io/" rel="external nofollow noopener" target="_blank">Fredrik Kahl</a>, and <a href="https://users.aalto.fi/~laines9/" rel="external nofollow noopener" target="_blank">Samuli Laine</a>.</p>
+
+<p>Note: This post shall be extended with more details in the future.</p>
+
     </div>
   </article>
+
+  
+
+  
+    
+      
+
+
+    
+  
+
+  
+  
 </div>
 
       
@@ -283,6 +318,31 @@
     
 
     
+  <!-- diff2html doesn't go well with Bootstrap Table -->
+  <script defer src="https://cdn.jsdelivr.net/npm/diff2html@3.4.47/bundles/js/diff2html-ui.min.js" integrity="sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY=" crossorigin="anonymous"></script>
+  <script>
+    let theme = localStorage.getItem('theme');
+
+    /* Create echarts chart as another node and hide the code block, appending the echarts node after it
+       this is done to enable retrieving the code again when changing theme between light/dark */
+    document.onreadystatechange = () => {
+      if (document.readyState === 'complete') {
+        document.querySelectorAll('pre>code.language-diff2html').forEach((elem) => {
+          const textData = elem.textContent;
+          const backup = elem.parentElement;
+          backup.classList.add('unloaded');
+          /* create diff node */
+          let diffElement = document.createElement('div');
+          diffElement.classList.add('diff2html');
+          backup.after(diffElement);
+          const configuration = { colorScheme: theme, drawFileList: true, highlight: true, matching: 'lines' };
+          const diff2htmlUi = new Diff2HtmlUI(diffElement, textData, configuration);
+          diff2htmlUi.draw();
+        });
+      }
+    };
+  </script>
+
 
     
 
