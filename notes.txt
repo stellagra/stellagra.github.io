@@ -1,7 +1,16 @@
-this file is just a placeholder:
+this file is just a placeholder with some to do notes
 
 
-to do_: change the about thing
+- add tab about?
+=> short version in front, more in other tab?
+
+research keywords
+excited about the combination of traditional machine learning methods and deep learning.
+Excited about hiuman data. 
+generation of faces, and human motion, formerly 
+
+de-mystyfying new terms with old methods
+
 generating face images, change of expression
 detection of fake images, generated images
 analysis of human motion
