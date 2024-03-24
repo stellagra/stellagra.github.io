@@ -1,13 +1,30 @@
 this file is just a placeholder with some to do notes
 
 
-- add tab about?
-=> short version in front, more in other tab?
+2do:
+
+- shall I do a long vs short about?
+- add images for publications (add to folder, adapt bibtex)
+- add project page for rene
+- add project page for phd thesis
+
+
+student projects division idea:
+- open projects / project suggestions 
+- how to create bar plot with overview?
++ note: double check the titles, because past ones might be the older work in progress titles, vs the actually submitted ones
++ in progress (working titles)
++ done (at ITU)
++ done (at LUH)
+
+
+KEYWORD - COLLECTION
+
 
 research keywords
 excited about the combination of traditional machine learning methods and deep learning.
-Excited about hiuman data. 
-generation of faces, and human motion, formerly 
+Excited about human data. 
+generation of faces, and human motion
 
 de-mystyfying new terms with old methods
 
@@ -18,5 +35,4 @@ analysis of human motion
 multi-modal
 
 
-I am affiliate [Pioneer Centre for AI ](https://www.aicentre.dk/). 
-board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin).
+

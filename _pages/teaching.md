@@ -1,11 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching Activities 
-description: Short description of my teaching activities. (to be completed)
+title: Teaching 
+description: Short description of my teaching activities. 
 nav: true
-nav_order: 6
+nav_order: 4
 ---
+
 
 ## IT University of Copenhagen
 - *Applied Statistics*,

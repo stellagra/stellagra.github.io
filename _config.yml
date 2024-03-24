@@ -64,16 +64,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: stellagra # your GitHub user name
-gitlab_username: # your GitLab user name
+#gitlab_username: # your GitLab user name
 #x_username: # your X handle
 #mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: stella-graßhof-15202579 # your LinkedIn user name
 scholar_userid: kSuLm58AAAAJ&hl # your Google Scholar ID
 semanticscholar_id: 23620370 # your Semantic Scholar ID
 orcid_id: 0000-0002-6791-7425 # your ORCID ID
-research_gate_profile: # your profile on ResearchGate
+#research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
+#blogger_url: # your blogger URL
 work_url: # work page URL
 #keybase_username: # your keybase user name
 dblp_url: # your DBLP profile url
