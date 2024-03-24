@@ -14,13 +14,22 @@
   },
   "education": [
     {
-      "institution": "TNT, Leibniz Universität Hannover",
+      "institution": "TNT, Leibniz Universität Hannover (LUH)",
       "location": "Hannover, Germany",
       "url": "https://www.tnt.uni-hannover.de",
       "area": "Mathematics and Computer Science",
-      "studyType": "PhD",
+      "studyType": "Dr.-Ing. (PhD)",
       "startDate": "2012-04",
       "endDate": "2019-11"
+    },
+    {
+      "institution": "Universität zu Lübeck",
+      "location": "Lübeck, Germany",
+      "url": "",
+      "area": "Computational Life Science (CLS)",
+      "studyType": "Master of Science",
+      "startDate": "",
+      "endDate": "2012-03"
     }
   ],
   "languages": [
@@ -33,12 +42,17 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Danish",
+      "fluency": "learning",
+      "icon": ""
     }
   ],
   "interests": [
     {
       "name": "Machine Learning",
-      "icon": "fa-solid fa-tag",
+      "icon": "",
       "keywords": [
         "Non-rigid Structure from Motion",
         "3D reconstruction",
