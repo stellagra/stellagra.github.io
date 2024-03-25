@@ -3,6 +3,7 @@ this file is just a placeholder with some to do notes
 
 2do:
 
+- add page for latest paper => refer to where?
 - shall I do a long vs short about?
 - add images for publications (add to folder, adapt bibtex)
 - add project page for rene
