@@ -1,90 +1,146 @@
 
-@inproceedings{grashof_performance_2013,
-	title = {Performance of {Image} {Registration} and {Its} {Extensions} for {Interpolation} of {Facial} {Motion}},
-	doi = {10.1007/978-3-642-53926-8_20},
-	abstract = {We compare the performance of an intensity based nonparametric image registration algorithm and extensions applied to frame interpolation of mouth images. The mouth exhibits large deformations due to different shapes, additionally some facial features occlude others, e.g. the lips cover the teeth. The closures and disclosures represent a challenging problem, which cannot be solved by the traditional image registration algorithms. 
- 
-The tested extensions include local regularizer weight adaptation, incorporation of landmarks, self-occlusion handling and penalization of folds, which have all been examined with different weight parameters. 
- 
-Since the performance of these algorithms and extensions turns out to be superior in case of mouth closures, we provide an algorithm for the automatic selection of deformable template and static reference image for the registration procedure. Subjective tests show that the quality of results for interpolation of mouth images is enhanced by this proposal.},
-	booktitle = {{PSIVT} {Workshops}},
-	author = {Graßhof, Stella and Ostermann, J.},
-	year = {2013},
-	keywords = {facial motion, frame interpolation, nonparametric image registration, numeric optimization, optical flow, variational}
-}
-
-@inproceedings{grashof_estimation_2015,
-	title = {Estimation of face parameters using correlation analysis and a topology preserving prior},
-	doi = {10.1109/MVA.2015.7153259},
-	abstract = {Candide-3 is a well-known model, used to represent triangular meshes of human faces. It is common to only estimate 17 to 21 of the 79 model parameters. We show that these are insufficient to fit model vertices to facial feature points with low error and if more parameters are estimated, the model mesh deforms to unnatural configurations. To overcome this problem, we propose a novel solution: Given facial feature points, we propose to estimate the model parameters in subsets in which they are uncorrelated. Additionally we present a term to penalize topologically incorrect triangular mesh configurations. As a result the average mean squared error between facial feature points and model vertices is reduced by 90\%, while face topology is preserved.},
-	booktitle = {2015 14th {IAPR} {International} {Conference} on {Machine} {Vision} {Applications} ({MVA})},
-	author = {Graßhof, Stella and Ackermann, Hanno and Ostermann, Jörn},
-	month = may,
-	year = {2015},
-	keywords = {average mean squared error, Candide-3, correlation analysis, correlation methods, Estimation, Face, face parameter estimation, face recognition, face topology, facial feature points, Facial features, feature extraction, human faces, mean square error methods, mesh deforms, model vertices, parameter estimation, Shape, Solid modeling, Three-dimensional displays, Topology, topology preserving prior, triangular mesh configurations, unnatural configurations},
-	pages = {584--587}
-}
-
-@inproceedings{grashof_apathy_2017,
-	title = {Apathy {Is} the {Root} of {All} {Expressions}},
-	doi = {10.1109/FG.2017.83},
-	abstract = {In this paper, we present a new statistical model for human faces. Our approach is built upon a tensor factorisation model that allows controlled estimation, morphing and transfer of new facial shapes and expressions. We propose a direct parametrisation and regularisation for person and expression related terms so that the training database is well utilised. In contrast to existing works we are the first to reveal that the expression subspace is star shaped. This stems from the fact that increasing the strength of an expression approximately forms a linear trajectory in the expression subspace, and all these linear trajectories intersect in a single point which corresponds to the point of no expression or the point of apathy. After centring our analysis to this point, we then demonstrate how the dimensionality of the expression subspace can be further reduced by projection pursuit with the help of the fourth-order moment tensor. The results show that our method is able to achieve convincing separation of the person specific and expression subspaces as well as flexible, natural modelling of facial expressions for wide variety of human faces. By the proposed approach, one can morph between different persons and different expressions even if they do not exist in the database. In contrast to the state-of-the-art, the morphing works without causing strong deformations. In the application of expression classification, the results are also better.},
-	booktitle = {2017 12th {IEEE} {International} {Conference} on {Automatic} {Face} {Gesture} {Recognition} ({FG} 2017)},
-	author = {Graßhof, Stella and Ackermann, Hanno and Brandt, Sami S. and Ostermann, Jörn},
-	month = may,
-	year = {2017},
-	keywords = {Face, face recognition, Shape, Three-dimensional displays, emotion recognition, Databases, computer graphics, Trajectory, Tensile stress, tensors, human face, statistical model, Arrays, expression classification, expression subspace, facial expression natural modelling, facial shapes, fourth-order moment tensor, linear trajectory, tensor factorisation model},
-	pages = {658--665}
-}
-
-@inproceedings{grashof_projective_2017,
-	title = {Projective structure from facial motion},
-	doi = {10.23919/MVA.2017.7986860},
-	abstract = {Nonrigid Structure-From-Motion is a well-known approach to estimate time-varying 3D structures from 2D input image sequences. For challenging problems such as the reconstruction of human faces, state-of-the-art approaches estimate statistical shape spaces from training data. It is common practice to use orthographic or weak-perspective camera models to map 3D to 2D points. We propose to use a projective camera model combined with a multilinear tensor-based face model, enabling approximation of a dense 3D face surface by sparse 2D landmarks. Using a projective camera is beneficial, as it is able to handle perspective projections and particular camera motions which are critical for affine models. We show how the nonlinearity of the projective model can be linearized so that its parameters can be estimated by an alternating-least-squares approach. This enables simple and fast estimation of the model parameters. The effectiveness of the proposed algorithm is demonstrated using challenging real image data.},
-	booktitle = {2017 {Fifteenth} {IAPR} {International} {Conference} on {Machine} {Vision} {Applications} ({MVA})},
-	author = {Graßhof, Stella and Ackermann, Hanno and Kuhnke, Felix and Ostermann, Jörn and Brandt, Sami S.},
-	month = may,
-	year = {2017},
-	keywords = {face recognition, Shape, Three-dimensional displays, image sequences, Solid modeling, image reconstruction, Tensile stress, Two dimensional displays, least squares approximations, Cameras, Image reconstruction, nonrigid structure-from-motion, 2D input image sequences, alternating-least-squares approach, facial motion, projective structure, sparse 2D landmarks, time-varying 3D structures},
-	pages = {298--301}
-}
-
-@inproceedings{awiszus_unsupervised_2018,
-	title = {Unsupervised {Features} for {Facial} {Expression} {Intensity} {Estimation} {Over} {Time}},
-	doi = {10.1109/CVPRW.2018.00156},
-	abstract = {The diversity of facial shapes and motions among persons is one of the greatest challenges for automatic analysis of facial expressions. In this paper, we propose a feature describing expression intensity over time, while being invariant to person and the type of performed expression. Our feature is a weighted combination of the dynamics of multiple points adapted to the overall expression trajectory. We evaluate our method on several tasks all related to temporal analysis of facial expression. The proposed feature is compared to a state-of-the-art method for expression intensity estimation, which it outperforms. We use our proposed feature to temporally align multiple sequences of recorded 3D facial expressions. Furthermore, we show how our feature can be used to reveal person-specific differences in performances of facial expressions. Additionally, we apply our feature to identify the local changes in face video sequences based on action unit labels. For all the experiments our feature proves to be robust against noise and outliers, making it applicable to a variety of applications for analysis of facial movements.},
-	booktitle = {2018 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
-	author = {Awiszus, M. and Graßhof, S. and Kuhnke, F. and Ostermann, J.},
+@inproceedings{ibh_tempose_2024,
+	title = {A stroke of genius: Predicting the next move in badminton},
+	abstract = {This paper presents, \textit{RallyTemPose}, a transformer encoder-decoder model for predicting future badminton strokes based on previous rally actions. The model uses court position, skeleton poses, and player-specific embeddings to learn stroke and player-specific latent representations in a spatiotemporal encoder module. The representations are then used to condition the subsequent strokes in a decoder module through rally-aware fusion blocks, which provide additional relevant strategic and technical considerations to make more informed predictions. RallyTemPose shows improved forecasting accuracy compared to traditional sequential methods on two real-world badminton datasets. The performance boost can also be attributed to the inclusion of improved stroke embeddings extracted from the latent representation of a pre-trained large-language model subjected to detailed text descriptions of stroke descriptions. In the discussion, the latent representations learned by the encoder module show useful properties regarding player analysis and comparisons.},
+	booktitle = {2024 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
+	author = {Ibh, Magnus and Graßhof, Stella and Witzner, Dan},
 	month = jun,
-	year = {2018},
+	year = {2024},
+    selected={false}
+}
+
+@inproceedings{haas_discovering_2024,
+	title = {Discovering {Interpretable} {Directions} in the {Semantic} {Latent} {Space} of {Diffusion} {Models}},
+	abstract = {Denoising Diffusion Models (DDMs) have emerged as a strong competitor to Generative Adversarial Networks (GANs).
+However, despite their widespread use in image synthesis and editing applications, their latent space is still not as well understood. Recently, a semantic latent space for DDMs, coined `h-space', was shown to facilitate semantic image editing in a way reminiscent of GANs. The h-space is comprised of the bottleneck activations in the DDM's denoiser across all timesteps of the diffusion process. In this paper, we explore the properties of h-space and propose several novel methods for finding meaningful semantic directions within it. We start by studying unsupervised methods for revealing interpretable semantic directions in pretrained DDMs. Specifically, we show that interpretable directions emerge as the principal components in the latent space. Additionally, we provide a novel method for discovering image-specific semantic directions by spectral analysis of the Jacobian of the denoiser w.r.t. the latent code. 
+Next, we extend the analysis by finding directions in a supervised fashion in unconditional DDMs.
+We demonstrate how such directions can be found by annotating generated samples with a domain-specific attribute classifier. 
+We further show how to semantically disentangle the found directions by simple linear projection.
+Our approaches are applicable without requiring any architectural modifications, text-based guidance, CLIP-based optimization, or model fine-tuning.},
+	author = {Haas, René and Huberman-Spiegelglas, Inbar and Mulayoff, Rotem and Brandt, Sami and Graßhof, Stella and Michaeli, Tomer},
+	month = may,
+	year = {2024},
+	booktitle = {18th IEEE International Conference on Automatic Face and Gesture Recognition}
+}
+
+
+@inproceedings{marnet_bridging_2024,
+	title = {Bridging the {Sim}-to-{Real} {GAP} for {Underwater} {Image} {Segmentation}},
+	abstract = {Labeling images for every new task or data pattern a model needs to learn is a significant time bottleneck in real-world applications. Moreover, acquiring the necessary data for training the models can be challenging. Ideally, one would train the models with simulated images and adapt them for the desired real tasks using the least possible amount of data. Active learning can be used to solve this problem with minimal effort. In this work, we train SegFormer for pipeline segmentation with synthetic images from an underwater simulated environment and fine-tune the model with real underwater pipeline images recorded in a marina. 
+The evaluation shows that selecting real data with active learning for fine-tuning the model gives better results than randomly selecting the images. As part of the work, we release the dataset recorded in the marina, MarinaPipe, which will be publicly available.},
+	author = {Marnet, Luiza Ribeiro and Graßhof, Stella and Brodskiy, Yuri and Wąsowski, Andrzej},
+	month = may,
+	year = {2024},
+	booktitle = {Oceans}
+}
+
+@inproceedings{marnet_uncertainty_2024,
+	title = {Uncertainty {Driven} {Active} {Learning} for {Image} {Segmentation} in {Underwater} {Inspection}},
+	abstract = {Active learning aims to select the minimum amount of data to train a model that performs similarly to a model trained with the entire dataset. We study the potential of active learning for image segmentation in underwater infrastructure inspection tasks, where large amounts of data are typically collected. The pipeline inspection images are usually semantically repetitive but with great variations in quality. We use mutual information as the acquisition function, calculated using Monte Carlo dropout. HyperSeg is trained using active learning with an underwater pipeline inspection dataset of over 50,000 images. To allow reproducibility and assess the framework's effectiveness, the CamVid dataset was also utilized. For the pipeline dataset, HyperSeg with active learning achieved 67.5\% meanIoU using 12.5\% of the data, and 61.4
+\% with the same amount of randomly selected images. This shows that using active learning for segmentation models in underwater inspection tasks can lower the cost significantly.},
+	author = {Marnet, Luiza Ribeiro and Graßhof, Stella and Brodskiy, Yuri and Wąsowski, Andrzej},
+	month = mar,
+	year = {2024},
+	booktitle = {ROBOVIS}
+}
+
+
+@inproceedings{ibh_tempose_2023,
+	title = {{TemPose}: a new skeleton-based transformer model designed for fine-grained motion recognition in badminton},
+	shorttitle = {{TemPose}},
+	url = {https://ieeexplore.ieee.org/document/10208321},
+	doi = {10.1109/CVPRW59228.2023.00548},
+	abstract = {This paper presents TemPose, a novel skeleton-based transformer model designed for fine-grained motion recognition to improve understanding of the detailed player actions in badminton. The model utilizes multiple temporal and interaction layers to capture variable-length multi-person human actions while minimizing reliance on non-human visual context. TemPose is evaluated on two fine-grained badminton datasets, where it significantly outperforms other baseline models by incorporating additional input streams, such as the shuttlecock position, into the temporal transformer layers of the model. Additionally, TemPose demonstrates great versatility by achieving competitive results compared to other state-of-the-art skeleton-based models on the large-scale action recognition benchmark NTU RGB+D. Experiments are conducted to explore how different model parameter configurations affect Tem-Pose’s performance. Additionally, a qualitative analysis of the temporal attention maps suggests that the model learns to prioritize frames of specific poses relevant to different actions while formulating an intuition of each individual’s importance in the sequences. Overall, TemPose is an intuitive and versatile architecture that has the potential to be further developed and incorporated into other methods for managing human motion in sports with state-of-the-art results.},
+	urldate = {2024-02-25},
+	booktitle = {2023 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
+	author = {Ibh, Magnus and Graßhof, Stella and Witzner, Dan and Madeleine, Pascal},
+	month = jun,
+	year = {2023},
 	note = {ISSN: 2160-7516},
-	keywords = {Estimation, Face, face recognition, feature extraction, Three-dimensional displays, emotion recognition, facial expression intensity estimation, image sequences, Databases, Gold, video signal processing, Facial features, facial movements, facial shapes, Principal component analysis, action unit labels, expression intensity, expression trajectory, face video sequences, person-specific differences}
+	keywords = {Computer architecture, Data models, Dynamics, Pattern recognition, Skeleton, Transformers, Visualization},
+	pages = {5199--5208},
+    selected={true},
+	pdf={2023_Ibh_cvprw_tempose.pdf}
 }
 
-@inproceedings{brandt_uncalibrated_2019,
-	title = {Uncalibrated {Non}-{Rigid} {Factorisation} by {Independent} {Subspace} {Analysis}},
-	doi = {10.1109/ICCVW.2019.00070},
-	abstract = {We propose a general, prior-free approach for the uncalibrated non-rigid structure-from-motion problem for modelling and analysis of non-rigid objects such as human faces. We recover the non-rigid affine structure and motion from 2D point correspondences by assuming that (1) the non-rigid shapes are generated by a linear combination of rigid 3D basis shapes, (2) that the non-rigid shapes are affine in nature, i.e., they can be modelled as deviations from the mean, rigid shape, (3) and that the basis shapes are statistically independent. In contrast to the majority of existing works, no statistical prior is assumed for the structure and motion apart from the assumption that underlying basis shapes are statistically independent. The independent 3D shape bases are recovered by independent subspace analysis (ISA). Likewise, in contrast to the most previous approaches, no calibration information is assumed for affine cameras; the reconstruction is solved up to a global affine ambiguity that makes our approach simple and efficient. In the experiments, we evaluated the method with several standard data sets including a real face expression data set of 7200 faces with 2D point correspondences and unknown 3D structure and motion for which we obtained promising results.},
-	booktitle = {2019 {IEEE}/{CVF} {International} {Conference} on {Computer} {Vision} {Workshop} ({ICCVW})},
-	author = {Brandt, Sami Sebastian and Ackermann, Hanno and Graßhof, Stella},
-	month = oct,
-	year = {2019},
-	note = {ISSN: 2473-9944},
-	keywords = {face recognition, Shape, Three-dimensional displays, emotion recognition, image reconstruction, matrix algebra, Covariance matrices, Two dimensional displays, statistical analysis, image motion analysis, iterative methods, independent subspace analysis, uncalibrated nonrigid factorisation, Cameras, Image reconstruction, 2D point correspondences, affine cameras, affine reconstruction, face expression data, independent 3D shape bases, Independent subspace analysis, ISA, Matrix decomposition, Non rigid structure from motion, nonrigid objects, prior-free approach, statistically independent, structure-from-motion problem},
-	pages = {569--578}
+@inproceedings{haas_controllable_2023,
+	title = {Controllable {GAN} {Synthesis} {Using} {Non}-{Rigid} {Structure}-from-{Motion}},
+	isbn = {9798350302493},
+	url = {https://www.computer.org/csdl/proceedings-article/cvprw/2023/024900a678/1PBx8PtXdE4},
+	doi = {10.1109/CVPRW59228.2023.00075},
+	booktitle = {2023 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
+	abstract = {In this paper, we present an approach for combining non-rigid structure-from-motion (NRSfM) with deep generative models, and propose an efficient framework for discovering trajectories in the latent space of 2D GANs corresponding to changes in 3D geometry. Our approach uses recent advances in NRSfM and enables editing of the camera and non-rigid shape information associated with the latent codes without needing to retrain the generator. This formulation provides an implicit dense 3D reconstruction as it enables the image synthesis of novel shapes from arbitrary view angles and non-rigid structure. The method is built upon a sparse backbone, where a neural regressor is first trained to regress parameters describing the cameras and sparse non-rigid structure directly from the latent codes. The latent trajectories associated with changes in the camera and structure parameters are then identified by estimating the local inverse of the regressor in the neighborhood of a given latent code. The experiments show that our approach provides a versatile, systematic way to model, analyze, and edit the geometry and non-rigid structures of faces.},
+	language = {English},
+	publisher = {IEEE Computer Society},
+	author = {Haas, René and Graßhof, Stella and Brandt, Sami S.},
+	month = jun,
+	year = {2023},
+	pages = {678--687},
+    selected={true},
+	website={https://github.com/renhaa/rankonegan}
 }
 
 
-@phdthesis{grashof_expressive_2019,
-	type = {Doktorarbeit},
-	title = {Expressive {Personalized} {3D} {Face} {Models} from {3D} {Face} {Scans}},
-	url = {https://www.vdi-nachrichten.com/shop/expressive-personalized-3d-face-models-from-3d-face-scans/},
-	abstract = {In this work, different methods are presented to create 3D face models from databases of 3D face scans. The challenge in this endeavour is to balance the limited training data with the high demands of various applications. The 3D scans stem from various persons showing different expressions, with varying number of points per 3D scan […]},
+@article{grashof_neural_2023,
+	title = {Neural {Network}-{Based} {Human} {Motion} {Predictor} and {Smoother}},
+	volume = {4},
+	issn = {2661-8907},
+	url = {https://doi.org/10.1007/s42979-023-02195-0},
+	doi = {10.1007/s42979-023-02195-0},
+	abstract = {Though continuous advances in the field of human pose estimation, it remains a challenge to retrieve high-quality recordings from real-life human motion using commodity hardware. Therefore, this work focuses on predicting and improving estimates for human motion with the aim of achieving production quality for skinned mesh animations by off-the-shelf webcams. We take advantage of recent findings in the field by employing a recurrent neural network architecture to (1) predict and (2) denoise human motion, with the intention of bridging the gap between cheap recording methods and high-quality recording. First, we propose an LSTM to predict short-term human motion, which achieves competitive results to state-of-the-art methods. Then, we adapt this model architecture and train it to clean up noisy human motion from two 3D low-quality input sources, and hence mimic a real-world scenario of recording human motion which yields noisy estimates. Experiments on simulated data show that the model is capable of significantly reducing noise, and it opens the way for future work to test the model on annotated data.},
 	language = {en},
-	urldate = {2021-01-25},
-	school = {Leibniz University of Hannover},
-	author = {Graßhof, Stella},
-	year = {2019}
+	number = {6},
+	urldate = {2023-10-02},
+	journal = {SN Computer Science},
+	author = {Graßhof, Stella and Bastholm, Mathias and Brandt, Sami S.},
+	month = sep,
+	year = {2023},
+	keywords = {Computer vision, Recurrent neural networks, Animation denoising, Reconstruction}, 
+	preview={human_motion1.png}
+}
+
+
+@inproceedings{bastholm_neural_2022,
+	title = {Neural {Network}-based {Human} {Motion} {Smoother}},
+	volume = {2},
+	isbn = {978-989-758-549-4},
+	url = {http://www.scitepress.org/Papers/2022/107905},
+	doi = {10.5220/0010790500003122},
+	abstract = {Recording real life human motion as a skinned mesh animation with an acceptable quality is usually difficult. Even though recent advances in pose estimation have enabled motion capture from off-the-shelf webcams, the low quality makes it infeasible for use in production quality animation. This work proposes to use recent advances in the prediction of human motion through neural networks to augment low quality human motion, in an effort to bridge the gap between cheap recording methods and high quality recording. First, a model, competitive with prior work in short-term human motion prediction, is constructed. Then, the model is trained to clean up motion from two low quality input sources, mimicking a real world scenario of recording human motion through two webcams. Experiments on simulated data show that the model is capable of significantly reducing noise, and it opens the way for future work to test the model on annotated data.},
+	language = {en},
+	urldate = {2022-03-23},
+	booktitle = {the International Conference on Pattern Recognition Applications and Methods (ICPRAM)},
+	publisher = {SCITEPRESS},
+	author = {Bastholm, Mathias and Graßhof, Stella and Brandt, Sami},
+	month = feb,
+	year = {2022}
+}
+
+@inproceedings{grashof_tensor-based_2022,
+	title = {Tensor-{Based} {Non}-{Rigid} {Structure} from {Motion}},
+	doi = {10.1109/WACV51458.2022.00231},
+	abstract = {In this work we present a method that combines tensor-based face modelling and analysis and non-rigid structure-from-motion (NRSFM). The core idea is to see that the conventional tensor formulation for the face structure and expression analysis can be utilised while the structure component can be directly analysed as the non-rigid structure-from-motion problem. To the NRSFM problem part we further present a novel prior-free approach that factorises the 2D input shapes into affine projection matrices, rank-one 3D affine basis shapes, and the basis shape coefficients. The linear combination of the basis shapes thus yields the recovered 3D shapes upto an affine transformation. In contrast to most works in literature, no calibration information of the cameras or structure prior is required. Experiments on challenging face datasets show that our method, with and without the metric upgrade, is accurate and fast when compared to the state-of-the-art and is well suitable for dense reconstruction and face editing.},
+	booktitle = {2022 {IEEE}/{CVF} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})},
+	author = {Graßhof, Stella and Brandt, Sami Sebastian},
+	month = jan,
+	year = {2022},
+	note = {ISSN: 2642-9381},
+	keywords = {Shape, Three-dimensional displays, Computational modeling, Solid modeling, Transforms, Structure from motion, Image and Video Synthesis, Tensors, 3D Computer Vision Computational Photography, Datasets, Evaluation and Comparison of Vision Algorithms, Learning and Optimization, Statistical Methods},
+	pages = {2254--2263}
+}
+
+@inproceedings{haas_tensor-based_2022,
+	title = {Tensor-based {Emotion} {Editing} in the {StyleGAN} {Latent} {Space}},
+	url = {http://arxiv.org/abs/2205.06102},
+	doi = {10.48550/arXiv.2205.06102},
+	abstract = {In this paper, we use a tensor model based on the Higher-Order Singular Value Decomposition (HOSVD) to discover semantic directions in Generative Adversarial Networks. This is achieved by first embedding a structured facial expression database into the latent space using the e4e encoder. Specifically, we discover directions in latent space corresponding to the six prototypical emotions: anger, disgust, fear, happiness, sadness, and surprise, as well as a direction for yaw rotation. These latent space directions are employed to change the expression or yaw rotation of real face images. We compare our found directions to similar directions found by two other methods. The results show that the visual quality of the resultant edits are on par with State-of-the-Art. It can also be concluded that the tensor-based model is well suited for emotion and yaw editing, i.e., that the emotion or yaw rotation of a novel face image can be robustly changed without a significant effect on identity or other attributes in the images.},
+	urldate = {2022-06-29},
+	publisher = {arXiv},
+	author = {Haas, René and Graßhof, Stella and Brandt, Sami S.},
+	month = may,
+	year = {2022},
+	note = {WS CVPR},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition}
 }
 
 @article{grashof_multilinear_2021,
@@ -115,132 +171,101 @@ Since the performance of these algorithms and extensions turns out to be superio
 	keywords = {Computer Science - Computer Vision and Pattern Recognition, Face recognition, Semantics, Databases, Measurement, Tensors, Codes, Stability analysis}
 }
 
-@article{bastholm_neural_2022,
-	title = {Neural {Network}-based {Human} {Motion} {Smoother}},
-	volume = {2},
-	isbn = {978-989-758-549-4},
-	url = {http://www.scitepress.org/Papers/2022/107905},
-	doi = {10.5220/0010790500003122},
-	abstract = {Recording real life human motion as a skinned mesh animation with an acceptable quality is usually difficult. Even though recent advances in pose estimation have enabled motion capture from off-the-shelf webcams, the low quality makes it infeasible for use in production quality animation. This work proposes to use recent advances in the prediction of human motion through neural networks to augment low quality human motion, in an effort to bridge the gap between cheap recording methods and high quality recording. First, a model, competitive with prior work in short-term human motion prediction, is constructed. Then, the model is trained to clean up motion from two low quality input sources, mimicking a real world scenario of recording human motion through two webcams. Experiments on simulated data show that the model is capable of significantly reducing noise, and it opens the way for future work to test the model on annotated data.},
+@phdthesis{grashof_expressive_2019,
+	type = {Doktorarbeit},
+	title = {Expressive {Personalized} {3D} {Face} {Models} from {3D} {Face} {Scans}},
+	url = {https://www.vdi-nachrichten.com/shop/expressive-personalized-3d-face-models-from-3d-face-scans/},
+	abstract = {In this work, different methods are presented to create 3D face models from databases of 3D face scans. The challenge in this endeavour is to balance the limited training data with the high demands of various applications. The 3D scans stem from various persons showing different expressions, with varying number of points per 3D scan […]},
 	language = {en},
-	urldate = {2022-03-23},
-	publisher = {SCITEPRESS},
-	author = {Bastholm, Mathias and Graßhof, Stella and Brandt, Sami},
-	month = feb,
-	year = {2022},
-	pages = {24--30}
+	urldate = {2021-01-25},
+	school = {Leibniz University of Hannover},
+	author = {Graßhof, Stella},
+	month = nov,	
+	year = {2019}
 }
 
 
-
-@inproceedings{grashof_tensor-based_2022,
-	title = {Tensor-{Based} {Non}-{Rigid} {Structure} from {Motion}},
-	doi = {10.1109/WACV51458.2022.00231},
-	abstract = {In this work we present a method that combines tensor-based face modelling and analysis and non-rigid structure-from-motion (NRSFM). The core idea is to see that the conventional tensor formulation for the face structure and expression analysis can be utilised while the structure component can be directly analysed as the non-rigid structure-from-motion problem. To the NRSFM problem part we further present a novel prior-free approach that factorises the 2D input shapes into affine projection matrices, rank-one 3D affine basis shapes, and the basis shape coefficients. The linear combination of the basis shapes thus yields the recovered 3D shapes upto an affine transformation. In contrast to most works in literature, no calibration information of the cameras or structure prior is required. Experiments on challenging face datasets show that our method, with and without the metric upgrade, is accurate and fast when compared to the state-of-the-art and is well suitable for dense reconstruction and face editing.},
-	booktitle = {2022 {IEEE}/{CVF} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})},
-	author = {Graßhof, Stella and Brandt, Sami Sebastian},
-	month = jan,
-	year = {2022},
-	note = {ISSN: 2642-9381},
-	keywords = {Shape, Three-dimensional displays, Computational modeling, Solid modeling, Transforms, Structure from motion, Image and Video Synthesis, Tensors, 3D Computer Vision Computational Photography, Datasets, Evaluation and Comparison of Vision Algorithms, Learning and Optimization, Statistical Methods},
-	pages = {2254--2263}
+@inproceedings{brandt_uncalibrated_2019,
+	title = {Uncalibrated {Non}-{Rigid} {Factorisation} by {Independent} {Subspace} {Analysis}},
+	doi = {10.1109/ICCVW.2019.00070},
+	abstract = {We propose a general, prior-free approach for the uncalibrated non-rigid structure-from-motion problem for modelling and analysis of non-rigid objects such as human faces. We recover the non-rigid affine structure and motion from 2D point correspondences by assuming that (1) the non-rigid shapes are generated by a linear combination of rigid 3D basis shapes, (2) that the non-rigid shapes are affine in nature, i.e., they can be modelled as deviations from the mean, rigid shape, (3) and that the basis shapes are statistically independent. In contrast to the majority of existing works, no statistical prior is assumed for the structure and motion apart from the assumption that underlying basis shapes are statistically independent. The independent 3D shape bases are recovered by independent subspace analysis (ISA). Likewise, in contrast to the most previous approaches, no calibration information is assumed for affine cameras; the reconstruction is solved up to a global affine ambiguity that makes our approach simple and efficient. In the experiments, we evaluated the method with several standard data sets including a real face expression data set of 7200 faces with 2D point correspondences and unknown 3D structure and motion for which we obtained promising results.},
+	booktitle = {2019 {IEEE}/{CVF} {International} {Conference} on {Computer} {Vision} {Workshop} ({ICCVW})},
+	author = {Brandt, Sami Sebastian and Ackermann, Hanno and Graßhof, Stella},
+	month = oct,
+	year = {2019},
+	note = {ISSN: 2473-9944},
+	keywords = {face recognition, Shape, Three-dimensional displays, emotion recognition, image reconstruction, matrix algebra, Covariance matrices, Two dimensional displays, statistical analysis, image motion analysis, iterative methods, independent subspace analysis, uncalibrated nonrigid factorisation, Cameras, Image reconstruction, 2D point correspondences, affine cameras, affine reconstruction, face expression data, independent 3D shape bases, Independent subspace analysis, ISA, Matrix decomposition, Non rigid structure from motion, nonrigid objects, prior-free approach, statistically independent, structure-from-motion problem},
+	pages = {569--578}
 }
 
-@inproceedings{haas_tensor-based_2022,
-	title = {Tensor-based {Emotion} {Editing} in the {StyleGAN} {Latent} {Space}},
-	url = {http://arxiv.org/abs/2205.06102},
-	doi = {10.48550/arXiv.2205.06102},
-	abstract = {In this paper, we use a tensor model based on the Higher-Order Singular Value Decomposition (HOSVD) to discover semantic directions in Generative Adversarial Networks. This is achieved by first embedding a structured facial expression database into the latent space using the e4e encoder. Specifically, we discover directions in latent space corresponding to the six prototypical emotions: anger, disgust, fear, happiness, sadness, and surprise, as well as a direction for yaw rotation. These latent space directions are employed to change the expression or yaw rotation of real face images. We compare our found directions to similar directions found by two other methods. The results show that the visual quality of the resultant edits are on par with State-of-the-Art. It can also be concluded that the tensor-based model is well suited for emotion and yaw editing, i.e., that the emotion or yaw rotation of a novel face image can be robustly changed without a significant effect on identity or other attributes in the images.},
-	urldate = {2022-06-29},
-	publisher = {arXiv},
-	author = {Haas, René and Graßhof, Stella and Brandt, Sami S.},
-	month = may,
-	year = {2022},
-	note = {WS CVPR},
-	keywords = {Computer Science - Computer Vision and Pattern Recognition}
-}
-
-@article{grashof_neural_2023,
-	title = {Neural {Network}-{Based} {Human} {Motion} {Predictor} and {Smoother}},
-	volume = {4},
-	issn = {2661-8907},
-	url = {https://doi.org/10.1007/s42979-023-02195-0},
-	doi = {10.1007/s42979-023-02195-0},
-	abstract = {Though continuous advances in the field of human pose estimation, it remains a challenge to retrieve high-quality recordings from real-life human motion using commodity hardware. Therefore, this work focuses on predicting and improving estimates for human motion with the aim of achieving production quality for skinned mesh animations by off-the-shelf webcams. We take advantage of recent findings in the field by employing a recurrent neural network architecture to (1) predict and (2) denoise human motion, with the intention of bridging the gap between cheap recording methods and high-quality recording. First, we propose an LSTM to predict short-term human motion, which achieves competitive results to state-of-the-art methods. Then, we adapt this model architecture and train it to clean up noisy human motion from two 3D low-quality input sources, and hence mimic a real-world scenario of recording human motion which yields noisy estimates. Experiments on simulated data show that the model is capable of significantly reducing noise, and it opens the way for future work to test the model on annotated data.},
-	language = {en},
-	number = {6},
-	urldate = {2023-10-02},
-	journal = {SN Computer Science},
-	author = {Graßhof, Stella and Bastholm, Mathias and Brandt, Sami S.},
-	month = sep,
-	year = {2023},
-	keywords = {Computer vision, Recurrent neural networks, Animation denoising, Reconstruction}, 
-	preview={human_motion1.png}
-}
-
-@inproceedings{ibh_tempose_2023,
-	title = {{TemPose}: a new skeleton-based transformer model designed for fine-grained motion recognition in badminton},
-	shorttitle = {{TemPose}},
-	url = {https://ieeexplore.ieee.org/document/10208321},
-	doi = {10.1109/CVPRW59228.2023.00548},
-	abstract = {This paper presents TemPose, a novel skeleton-based transformer model designed for fine-grained motion recognition to improve understanding of the detailed player actions in badminton. The model utilizes multiple temporal and interaction layers to capture variable-length multi-person human actions while minimizing reliance on non-human visual context. TemPose is evaluated on two fine-grained badminton datasets, where it significantly outperforms other baseline models by incorporating additional input streams, such as the shuttlecock position, into the temporal transformer layers of the model. Additionally, TemPose demonstrates great versatility by achieving competitive results compared to other state-of-the-art skeleton-based models on the large-scale action recognition benchmark NTU RGB+D. Experiments are conducted to explore how different model parameter configurations affect Tem-Pose’s performance. Additionally, a qualitative analysis of the temporal attention maps suggests that the model learns to prioritize frames of specific poses relevant to different actions while formulating an intuition of each individual’s importance in the sequences. Overall, TemPose is an intuitive and versatile architecture that has the potential to be further developed and incorporated into other methods for managing human motion in sports with state-of-the-art results.},
-	urldate = {2024-02-25},
-	booktitle = {2023 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
-	author = {Ibh, Magnus and Graßhof, Stella and Witzner, Dan and Madeleine, Pascal},
+@inproceedings{awiszus_unsupervised_2018,
+	title = {Unsupervised {Features} for {Facial} {Expression} {Intensity} {Estimation} {Over} {Time}},
+	doi = {10.1109/CVPRW.2018.00156},
+	abstract = {The diversity of facial shapes and motions among persons is one of the greatest challenges for automatic analysis of facial expressions. In this paper, we propose a feature describing expression intensity over time, while being invariant to person and the type of performed expression. Our feature is a weighted combination of the dynamics of multiple points adapted to the overall expression trajectory. We evaluate our method on several tasks all related to temporal analysis of facial expression. The proposed feature is compared to a state-of-the-art method for expression intensity estimation, which it outperforms. We use our proposed feature to temporally align multiple sequences of recorded 3D facial expressions. Furthermore, we show how our feature can be used to reveal person-specific differences in performances of facial expressions. Additionally, we apply our feature to identify the local changes in face video sequences based on action unit labels. For all the experiments our feature proves to be robust against noise and outliers, making it applicable to a variety of applications for analysis of facial movements.},
+	booktitle = {2018 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
+	author = {Awiszus, M. and Graßhof, S. and Kuhnke, F. and Ostermann, J.},
 	month = jun,
-	year = {2023},
+	year = {2018},
 	note = {ISSN: 2160-7516},
-	keywords = {Computer architecture, Data models, Dynamics, Pattern recognition, Skeleton, Transformers, Visualization},
-	pages = {5199--5208},
-    selected={true}
+	keywords = {Estimation, Face, face recognition, feature extraction, Three-dimensional displays, emotion recognition, facial expression intensity estimation, image sequences, Databases, Gold, video signal processing, Facial features, facial movements, facial shapes, Principal component analysis, action unit labels, expression intensity, expression trajectory, face video sequences, person-specific differences},
+	preview={temp_align_main_direction_pca_ax.png}
 }
 
-@inproceedings{haas_controllable_2023,
-	title = {Controllable {GAN} {Synthesis} {Using} {Non}-{Rigid} {Structure}-from-{Motion}},
-	isbn = {9798350302493},
-	url = {https://www.computer.org/csdl/proceedings-article/cvprw/2023/024900a678/1PBx8PtXdE4},
-	doi = {10.1109/CVPRW59228.2023.00075},
-	booktitle = {2023 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
-	abstract = {In this paper, we present an approach for combining non-rigid structure-from-motion (NRSfM) with deep generative models, and propose an efficient framework for discovering trajectories in the latent space of 2D GANs corresponding to changes in 3D geometry. Our approach uses recent advances in NRSfM and enables editing of the camera and non-rigid shape information associated with the latent codes without needing to retrain the generator. This formulation provides an implicit dense 3D reconstruction as it enables the image synthesis of novel shapes from arbitrary view angles and non-rigid structure. The method is built upon a sparse backbone, where a neural regressor is first trained to regress parameters describing the cameras and sparse non-rigid structure directly from the latent codes. The latent trajectories associated with changes in the camera and structure parameters are then identified by estimating the local inverse of the regressor in the neighborhood of a given latent code. The experiments show that our approach provides a versatile, systematic way to model, analyze, and edit the geometry and non-rigid structures of faces.},
-	language = {English},
-	publisher = {IEEE Computer Society},
-	author = {Haas, René and Graßhof, Stella and Brandt, Sami S.},
-	month = jun,
-	year = {2023},
-	pages = {678--687},
-    selected={true}
-}
 
-@inproceedings{marnet_bridging_2024,
-	title = {Bridging the {Sim}-to-{Real} {GAP} for {Underwater} {Image} {Segmentation}},
-	abstract = {Labeling images for every new task or data pattern a model needs to learn is a significant time bottleneck in real-world applications. Moreover, acquiring the necessary data for training the models can be challenging. Ideally, one would train the models with simulated images and adapt them for the desired real tasks using the least possible amount of data. Active learning can be used to solve this problem with minimal effort. In this work, we train SegFormer for pipeline segmentation with synthetic images from an underwater simulated environment and fine-tune the model with real underwater pipeline images recorded in a marina. 
-The evaluation shows that selecting real data with active learning for fine-tuning the model gives better results than randomly selecting the images. As part of the work, we release the dataset recorded in the marina, MarinaPipe, which will be publicly available.},
-	author = {Marnet, Luiza Ribeiro and Graßhof, Stella and Brodskiy, Yuri and Wąsowski, Andrzej},
+@inproceedings{grashof_apathy_2017,
+	title = {Apathy {Is} the {Root} of {All} {Expressions}},
+	doi = {10.1109/FG.2017.83},
+	abstract = {In this paper, we present a new statistical model for human faces. Our approach is built upon a tensor factorisation model that allows controlled estimation, morphing and transfer of new facial shapes and expressions. We propose a direct parametrisation and regularisation for person and expression related terms so that the training database is well utilised. In contrast to existing works we are the first to reveal that the expression subspace is star shaped. This stems from the fact that increasing the strength of an expression approximately forms a linear trajectory in the expression subspace, and all these linear trajectories intersect in a single point which corresponds to the point of no expression or the point of apathy. After centring our analysis to this point, we then demonstrate how the dimensionality of the expression subspace can be further reduced by projection pursuit with the help of the fourth-order moment tensor. The results show that our method is able to achieve convincing separation of the person specific and expression subspaces as well as flexible, natural modelling of facial expressions for wide variety of human faces. By the proposed approach, one can morph between different persons and different expressions even if they do not exist in the database. In contrast to the state-of-the-art, the morphing works without causing strong deformations. In the application of expression classification, the results are also better.},
+	booktitle = {2017 12th {IEEE} {International} {Conference} on {Automatic} {Face} {Gesture} {Recognition} ({FG} 2017)},
+	author = {Graßhof, Stella and Ackermann, Hanno and Brandt, Sami S. and Ostermann, Jörn},
 	month = may,
-	year = {2024},
-	booktitle = {Oceans}
+	year = {2017},
+	keywords = {Face, face recognition, Shape, Three-dimensional displays, emotion recognition, Databases, computer graphics, Trajectory, Tensile stress, tensors, human face, statistical model, Arrays, expression classification, expression subspace, facial expression natural modelling, facial shapes, fourth-order moment tensor, linear trajectory, tensor factorisation model},
+	pages = {658--665},
+	preview={Uexpression_with_faces_color_dense.png},
+	pdf={2017_grasshof_fg.pdf}
 }
 
-@inproceedings{marnet_uncertainty_2024,
-	title = {Uncertainty {Driven} {Active} {Learning} for {Image} {Segmentation} in {Underwater} {Inspection}},
-	abstract = {Active learning aims to select the minimum amount of data to train a model that performs similarly to a model trained with the entire dataset. We study the potential of active learning for image segmentation in underwater infrastructure inspection tasks, where large amounts of data are typically collected. The pipeline inspection images are usually semantically repetitive but with great variations in quality. We use mutual information as the acquisition function, calculated using Monte Carlo dropout. HyperSeg is trained using active learning with an underwater pipeline inspection dataset of over 50,000 images. To allow reproducibility and assess the framework's effectiveness, the CamVid dataset was also utilized. For the pipeline dataset, HyperSeg with active learning achieved 67.5\% meanIoU using 12.5\% of the data, and 61.4
-\% with the same amount of randomly selected images. This shows that using active learning for segmentation models in underwater inspection tasks can lower the cost significantly.},
-	author = {Marnet, Luiza Ribeiro and Graßhof, Stella and Brodskiy, Yuri and Wąsowski, Andrzej},
-	month = mar,
-	year = {2024},
-	booktitle = {ROBOVIS}
-}
-
-@inproceedings{haas_discovering_2024,
-	title = {Discovering {Interpretable} {Directions} in the {Semantic} {Latent} {Space} of {Diffusion} {Models}},
-	abstract = {Denoising Diffusion Models (DDMs) have emerged as a strong competitor to Generative Adversarial Networks (GANs).
-However, despite their widespread use in image synthesis and editing applications, their latent space is still not as well understood. Recently, a semantic latent space for DDMs, coined `h-space', was shown to facilitate semantic image editing in a way reminiscent of GANs. The h-space is comprised of the bottleneck activations in the DDM's denoiser across all timesteps of the diffusion process. In this paper, we explore the properties of h-space and propose several novel methods for finding meaningful semantic directions within it. We start by studying unsupervised methods for revealing interpretable semantic directions in pretrained DDMs. Specifically, we show that interpretable directions emerge as the principal components in the latent space. Additionally, we provide a novel method for discovering image-specific semantic directions by spectral analysis of the Jacobian of the denoiser w.r.t. the latent code. 
-Next, we extend the analysis by finding directions in a supervised fashion in unconditional DDMs.
-We demonstrate how such directions can be found by annotating generated samples with a domain-specific attribute classifier. 
-We further show how to semantically disentangle the found directions by simple linear projection.
-Our approaches are applicable without requiring any architectural modifications, text-based guidance, CLIP-based optimization, or model fine-tuning.},
-	author = {Haas, René and Huberman-Spiegelglas, Inbar and Mulayoff, Rotem and Brandt, Sami and Graßhof, Stella and Michaeli, Tomer},
+@inproceedings{grashof_projective_2017,
+	title = {Projective structure from facial motion},
+	doi = {10.23919/MVA.2017.7986860},
+	abstract = {Nonrigid Structure-From-Motion is a well-known approach to estimate time-varying 3D structures from 2D input image sequences. For challenging problems such as the reconstruction of human faces, state-of-the-art approaches estimate statistical shape spaces from training data. It is common practice to use orthographic or weak-perspective camera models to map 3D to 2D points. We propose to use a projective camera model combined with a multilinear tensor-based face model, enabling approximation of a dense 3D face surface by sparse 2D landmarks. Using a projective camera is beneficial, as it is able to handle perspective projections and particular camera motions which are critical for affine models. We show how the nonlinearity of the projective model can be linearized so that its parameters can be estimated by an alternating-least-squares approach. This enables simple and fast estimation of the model parameters. The effectiveness of the proposed algorithm is demonstrated using challenging real image data.},
+	booktitle = {2017 {Fifteenth} {IAPR} {International} {Conference} on {Machine} {Vision} {Applications} ({MVA})},
+	author = {Graßhof, Stella and Ackermann, Hanno and Kuhnke, Felix and Ostermann, Jörn and Brandt, Sami S.},
 	month = may,
-	year = {2024},
-	booktitle = {18th IEEE International Conference on Automatic Face and Gesture Recognition}	
+	year = {2017},
+	keywords = {face recognition, Shape, Three-dimensional displays, image sequences, Solid modeling, image reconstruction, Tensile stress, Two dimensional displays, least squares approximations, Cameras, Image reconstruction, nonrigid structure-from-motion, 2D input image sequences, alternating-least-squares approach, facial motion, projective structure, sparse 2D landmarks, time-varying 3D structures},
+	pages = {298--301},
+	preview={felix.png},
+	pdf={2017_grasshof_mva.pdf}
+}
+
+
+@inproceedings{grashof_estimation_2015,
+	title = {Estimation of face parameters using correlation analysis and a topology preserving prior},
+	doi = {10.1109/MVA.2015.7153259},
+	abstract = {Candide-3 is a well-known model, used to represent triangular meshes of human faces. It is common to only estimate 17 to 21 of the 79 model parameters. We show that these are insufficient to fit model vertices to facial feature points with low error and if more parameters are estimated, the model mesh deforms to unnatural configurations. To overcome this problem, we propose a novel solution: Given facial feature points, we propose to estimate the model parameters in subsets in which they are uncorrelated. Additionally we present a term to penalize topologically incorrect triangular mesh configurations. As a result the average mean squared error between facial feature points and model vertices is reduced by 90\%, while face topology is preserved.},
+	booktitle = {2015 14th {IAPR} {International} {Conference} on {Machine} {Vision} {Applications} ({MVA})},
+	author = {Graßhof, Stella and Ackermann, Hanno and Ostermann, Jörn},
+	month = may,
+	year = {2015},
+	keywords = {average mean squared error, Candide-3, correlation analysis, correlation methods, Estimation, Face, face parameter estimation, face recognition, face topology, facial feature points, Facial features, feature extraction, human faces, mean square error methods, mesh deforms, model vertices, parameter estimation, Shape, Solid modeling, Three-dimensional displays, Topology, topology preserving prior, triangular mesh configurations, unnatural configurations},
+	pages = {584--587},
+	preview={v2_A_a6_wp.png},
+	pdf={2015_grasshof.pdf}
+}
+
+
+@inproceedings{grashof_performance_2013,
+	title = {Performance of {Image} {Registration} and {Its} {Extensions} for {Interpolation} of {Facial} {Motion}},
+	doi = {10.1007/978-3-642-53926-8_20},
+	abstract = {We compare the performance of an intensity based nonparametric image registration algorithm and extensions applied to frame interpolation of mouth images. The mouth exhibits large deformations due to different shapes, additionally some facial features occlude others, e.g. the lips cover the teeth. The closures and disclosures represent a challenging problem, which cannot be solved by the traditional image registration algorithms. 
+The tested extensions include local regularizer weight adaptation, incorporation of landmarks, self-occlusion handling and penalization of folds, which have all been examined with different weight parameters. 
+Since the performance of these algorithms and extensions turns out to be superior in case of mouth closures, we provide an algorithm for the automatic selection of deformable template and static reference image for the registration procedure. Subjective tests show that the quality of results for interpolation of mouth images is enhanced by this proposal.},
+	booktitle = {{PSIVT} {Workshops}},
+	author = {Graßhof, Stella and Ostermann, J.},
+	year = {2013},
+	keywords = {facial motion, frame interpolation, nonparametric image registration, numeric optimization, optical flow, variational},
+	preview={pink_teeth.png},
+	pdf={2013_grasshof.pdf}
 }

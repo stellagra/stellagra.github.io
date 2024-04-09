@@ -20,12 +20,12 @@ I am working as an Assistant Professor at the [IT University of Copenhagen](http
 My research focus is **human-centred Machine Learning**. I am focussing on generative AI mainly in the visual domain, to use images and videos for the analysis and synthesis of human faces and human motion. One domain is machine learning in mental health applications. I am grateful to be able to pursue this direction with our new PhD student Martin Trinhammer, who has a background in psychology. This ties well into the grant I got from the Lundbeck Foundation last year, where the project deals with the same domain. 
 We aim at learning more about different mental disorders, to improve their diagnosis, personalize health care, and last but not least improve access. While this is challenging in itself, we are working on different aspects of ensuring privacy of the patient data. 
 To get a better understanding of my research and interests, please check my publications, and student projects. (Project pages about to come.) 
-Additionally, I am affiliated with the [Pioneer Centre for AI](https://www.aicentre.dk/), and board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin). 
+Additionally, I am affiliated with the [Pioneer Centre for AI](https://www.aicentre.dk/), active member and board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin). 
 
 Currently, I am happily co-supervising the following three PhD bright students:
-- Martin Lund Trinhammer with Sami S. Brandt
-- Luiza Ribeiro Marnet with Andrzej Wąsowski and Yury Brodskiy
-- Magnus Ibh with Dan Witzner Hansen and Pascal Madeleine
+- [Martin Lund Trinhammer](https://pure.itu.dk/da/persons/martin-lund-trinhammer) with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt)
+- [Luiza Ribeiro Marnet](https://www.linkedin.com/in/luiza-ribeiro-marnet-378259116) with [Andrzej Wąsowski](http://www.itu.dk/people/wasowski/) and [Yury Brodskiy](https://www.linkedin.com/in/yurybrodskiy/)
+- [Magnus Ibh](https://pure.itu.dk/en/persons/magnus-ibh) with [Dan Witzner Hansen](https://pure.itu.dk/en/persons/dan-witzner-hansen) and [Pascal Madeleine](https://vbn.aau.dk/da/persons/102245)
 
-The first PhD student René Haas, whom I co-supervised with Sami S. Brandt, finished end of 2023, and delivered an excellent thesis. 
+The first PhD student [René Haas](https://pure.itu.dk/da/persons/ren%C3%A9-haas), whom I co-supervised with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt), finished end of 2023, and delivered an excellent thesis. 
 

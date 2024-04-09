@@ -158,7 +158,7 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /studentprojects/:path/
+    permalink: /projects/:path/
 
 announcements:
   enabled: true
