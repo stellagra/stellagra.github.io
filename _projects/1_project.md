@@ -40,6 +40,7 @@ Using the decomposition and carefully designed constraints, we were able to make
 
 ## References
 <div class="publications">
+  {% bibliography -f papers -q @*[key=grashof_multilinear_2021]* %}
   {% bibliography -f papers -q @*[key=grashof_expressive_2019]* %}
   {% bibliography -f papers -q @*[key=brandt_uncalibrated_2019]* %}
   {% bibliography -f papers -q @*[key=awiszus_unsupervised_2018]* %}

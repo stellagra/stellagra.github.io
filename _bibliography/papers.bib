@@ -99,7 +99,8 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	month = sep,
 	year = {2023},
 	keywords = {Computer vision, Recurrent neural networks, Animation denoising, Reconstruction}, 
-	preview={human_motion1.png}
+	pdf={2023_grasshof_cn_computer_science.pdf},
+	preview={2023_grasshof_cn_computer_science.png}
 }
 
 
@@ -116,7 +117,9 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	publisher = {SCITEPRESS},
 	author = {Bastholm, Mathias and Graßhof, Stella and Brandt, Sami},
 	month = feb,
-	year = {2022}
+	year = {2022},
+	pdf={2022_bastholm_icpram.pdf},
+	preview={2022_bastholm_icpram.png}
 }
 
 @inproceedings{grashof_tensor-based_2022,
@@ -129,7 +132,9 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	year = {2022},
 	note = {ISSN: 2642-9381},
 	keywords = {Shape, Three-dimensional displays, Computational modeling, Solid modeling, Transforms, Structure from motion, Image and Video Synthesis, Tensors, 3D Computer Vision Computational Photography, Datasets, Evaluation and Comparison of Vision Algorithms, Learning and Optimization, Statistical Methods},
-	pages = {2254--2263}
+	pages = {2254--2263},
+	preview={2022_grasshof_wacv.gif},
+	pdf={2022_grasshof_wacv.pdf}
 }
 
 @inproceedings{haas_tensor-based_2022,
@@ -137,13 +142,14 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	url = {http://arxiv.org/abs/2205.06102},
 	doi = {10.48550/arXiv.2205.06102},
 	abstract = {In this paper, we use a tensor model based on the Higher-Order Singular Value Decomposition (HOSVD) to discover semantic directions in Generative Adversarial Networks. This is achieved by first embedding a structured facial expression database into the latent space using the e4e encoder. Specifically, we discover directions in latent space corresponding to the six prototypical emotions: anger, disgust, fear, happiness, sadness, and surprise, as well as a direction for yaw rotation. These latent space directions are employed to change the expression or yaw rotation of real face images. We compare our found directions to similar directions found by two other methods. The results show that the visual quality of the resultant edits are on par with State-of-the-Art. It can also be concluded that the tensor-based model is well suited for emotion and yaw editing, i.e., that the emotion or yaw rotation of a novel face image can be robustly changed without a significant effect on identity or other attributes in the images.},
-	urldate = {2022-06-29},
-	publisher = {arXiv},
 	author = {Haas, René and Graßhof, Stella and Brandt, Sami S.},
 	month = may,
+	booktitle = {AI for content creation workshop at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
 	year = {2022},
-	note = {WS CVPR},
-	keywords = {Computer Science - Computer Vision and Pattern Recognition}
+	keywords = {Computer Science, Computer Vision, Pattern Recognition, GAN},
+	website={https://github.com/renhaa/tensorgan},
+	preview={2022_haas_cvpr.png},
+	pdf={2022_haas_cvpr.pdf}
 }
 
 @article{grashof_multilinear_2021,
@@ -157,13 +163,14 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	author = {Graßhof, Stella and Ackermann, Hanno and Brandt, Sami Sebastian and Ostermann, Jörn},
 	month = oct,
 	year = {2021},
-	note = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
 	keywords = {3D-reconstruction, Analytical models, Data models, expression transfer, HOSVD, person transfer, Shape, Solid modeling, Statistical shape model, Tensile stress, tensor model, Three-dimensional displays, Two dimensional displays},
 	pages = {3540--3554},
-    selected={true}
+    selected={true},
+	preview={2021_grasshof_tpami.png},
+	pdf={2021_grasshof_tpami.pdf}
 }
 
-@article{haas_tensor-based_2021,
+@inproceedings{haas_tensor-based_2021,
 	title = {Tensor-based {Subspace} {Factorization} for {StyleGAN}},
 	doi = {10.1109/FG52635.2021.9666953},
 	abstract = {In this paper, we propose TGAN a tensor-based method for modeling the latent space of generative models. The objective is to identify semantic directions in latent space. To this end, we propose to fit a multilinear tensor model on a structured facial expression database, which is initially embedded into latent space. We validate our approach on StyleGAN trained on FFHQ using BU-3DFE as a structured facial expression database. We show how the parameters of the multilinear tensor model can be approximated by Alternating Least Squares. Further, we introduce a stacked style-separated tensor model, defined as an ensemble of style-specific models to integrate our approach with the extended latent space of StyleGAN. We show that taking the individual styles of the extended latent space into account leads to higher model flexibility and lower reconstruction error. Finally, we do several experiments comparing our approach to former work on both GANs and multilinear models. Concretely, we analyze the expression subspace and find that the expression trajectories meet at an apathetic face that is consistent with earlier work. We also show that by changing the pose of a person, the generated image from our approach is closer to the ground truth than results from two competing approaches.},
@@ -171,7 +178,9 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	author = {Haas, René and Graßhof, Stella and Brandt, Sami S.},
 	month = dec,
 	year = {2021},
-	keywords = {Computer Science - Computer Vision and Pattern Recognition, Face recognition, Semantics, Databases, Measurement, Tensors, Codes, Stability analysis}
+	keywords = {Computer Science, Computer Vision and Pattern Recognition, Face recognition, Semantics, Databases, Measurement, Tensors, Codes, Stability analysis},
+	pdf={2021_haas_fg.pdf},
+	preview={2021_haas_fg.png}
 }
 
 @phdthesis{grashof_expressive_2019,
@@ -184,9 +193,11 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	school = {Leibniz University of Hannover},
 	author = {Graßhof, Stella},
 	month = nov,	
-	year = {2019}
+	year = {2019},
+	note={PhD thesis},
+	publisher={VDI},
+	preview={2019_phd.png}
 }
-
 
 @inproceedings{brandt_uncalibrated_2019,
 	title = {Uncalibrated {Non}-{Rigid} {Factorisation} by {Independent} {Subspace} {Analysis}},
@@ -198,7 +209,9 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	year = {2019},
 	note = {ISSN: 2473-9944},
 	keywords = {face recognition, Shape, Three-dimensional displays, emotion recognition, image reconstruction, matrix algebra, Covariance matrices, Two dimensional displays, statistical analysis, image motion analysis, iterative methods, independent subspace analysis, uncalibrated nonrigid factorisation, Cameras, Image reconstruction, 2D point correspondences, affine cameras, affine reconstruction, face expression data, independent 3D shape bases, Independent subspace analysis, ISA, Matrix decomposition, Non rigid structure from motion, nonrigid objects, prior-free approach, statistically independent, structure-from-motion problem},
-	pages = {569--578}
+	pages = {569--578},
+	pdf={2019_brandt_iccv.pdf},
+	preview={2019_brandt_iccv.png}
 }
 
 @inproceedings{awiszus_unsupervised_2018,
@@ -211,7 +224,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	year = {2018},
 	note = {ISSN: 2160-7516},
 	keywords = {Estimation, Face, face recognition, feature extraction, Three-dimensional displays, emotion recognition, facial expression intensity estimation, image sequences, Databases, Gold, video signal processing, Facial features, facial movements, facial shapes, Principal component analysis, action unit labels, expression intensity, expression trajectory, face video sequences, person-specific differences},
-	preview={temp_align_main_direction_pca_ax.png},
+	preview={2018_awiszus_cvpr.png},
 	pdf={2018_awiszus_cvpr.pdf}
 }
 
@@ -226,7 +239,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	year = {2017},
 	keywords = {Face, face recognition, Shape, Three-dimensional displays, emotion recognition, Databases, computer graphics, Trajectory, Tensile stress, tensors, human face, statistical model, Arrays, expression classification, expression subspace, facial expression natural modelling, facial shapes, fourth-order moment tensor, linear trajectory, tensor factorisation model},
 	pages = {658--665},
-	preview={Uexpression_with_faces_color_dense.png},
+	preview={2017_grasshof_fg.png},
 	pdf={2017_grasshof_fg.pdf}
 }
 
@@ -240,7 +253,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	year = {2017},
 	keywords = {face recognition, Shape, Three-dimensional displays, image sequences, Solid modeling, image reconstruction, Tensile stress, Two dimensional displays, least squares approximations, Cameras, Image reconstruction, nonrigid structure-from-motion, 2D input image sequences, alternating-least-squares approach, facial motion, projective structure, sparse 2D landmarks, time-varying 3D structures},
 	pages = {298--301},
-	preview={felix.png},
+	preview={2017_grasshof_mva.png},
 	pdf={2017_grasshof_mva.pdf}
 }
 
@@ -255,7 +268,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	year = {2015},
 	keywords = {average mean squared error, Candide-3, correlation analysis, correlation methods, Estimation, Face, face parameter estimation, face recognition, face topology, facial feature points, Facial features, feature extraction, human faces, mean square error methods, mesh deforms, model vertices, parameter estimation, Shape, Solid modeling, Three-dimensional displays, Topology, topology preserving prior, triangular mesh configurations, unnatural configurations},
 	pages = {584--587},
-	preview={v2_A_a6_wp.png},
+	preview={2015_grasshof_mva.png},
 	pdf={2015_grasshof.pdf}
 }
 
@@ -266,10 +279,10 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	abstract = {We compare the performance of an intensity based nonparametric image registration algorithm and extensions applied to frame interpolation of mouth images. The mouth exhibits large deformations due to different shapes, additionally some facial features occlude others, e.g. the lips cover the teeth. The closures and disclosures represent a challenging problem, which cannot be solved by the traditional image registration algorithms. 
 The tested extensions include local regularizer weight adaptation, incorporation of landmarks, self-occlusion handling and penalization of folds, which have all been examined with different weight parameters. 
 Since the performance of these algorithms and extensions turns out to be superior in case of mouth closures, we provide an algorithm for the automatic selection of deformable template and static reference image for the registration procedure. Subjective tests show that the quality of results for interpolation of mouth images is enhanced by this proposal.},
-	booktitle = {{PSIVT} {Workshops}},
+	booktitle = {Pacific-Rim Symposium on Image and Video Technology {(PSIVT)} {Workshops}},
 	author = {Graßhof, Stella and Ostermann, J.},
 	year = {2013},
 	keywords = {facial motion, frame interpolation, nonparametric image registration, numeric optimization, optical flow, variational},
-	preview={pink_teeth.png},
+	preview={2013_psivt.png},
 	pdf={2013_grasshof.pdf}
 }
