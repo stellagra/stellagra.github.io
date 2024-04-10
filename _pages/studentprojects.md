@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Studentprojects
+title: Student Projects
 permalink: /studentprojects/
 description: A growing collection of student projects - completed, ongoing, and suggestions.
 nav: true
@@ -8,13 +8,13 @@ nav_order: 3
 display_categories: [project, student]
 horizontal: false
 ---
-
 <!-- pages/studentprojects.md -->
 So far I had the pleasure of supervising (or being involved as a co-supervisor in) over 50 student projects of various content and different kinds. 
 It is with great pleasure that I support students to follow their passion, and acquire new knowledge. 
 In some cases a company was involved in the project which provides the students with valuable insights into the industry. 
 
 If you are considering me as a supervisor, you can find a list of project suggestions and completed supervised projects below for inspiration. 
+
 
 
 # Open Projects 
@@ -39,9 +39,6 @@ The different abbreviations are referring to the following types
 - RP : Research Project
 - BSc : Bachelor thesis
 
-Note: I only publish the names of the students if they agreed to it. However, since this website was created 2024, I did not ask most of my previous students. 
-If you are one of my former students, and would like your name listed, please message me. 
-
 
 ## Ongoing student projects - working titles
 - 2024, MSc, *Classification of gym machines*
@@ -56,7 +53,8 @@ If you are one of my former students, and would like your name listed, please me
 
 ## Finalized student projects at ITU
 Note: Companies involved in the projects are intentionally not mentioned. 
-If public material for the work is available it might be linked here. Please note that names and links in progress.
+Your name will only appear if you explicitly agreed to it. 
+If you would like your name listed next to your project, please let me know message me. 
 
 - 2024, RP, *Fit-Ai*, 3 students
 - 2024, RP, *Semi-supervised classification of engine parts*, 2 students
