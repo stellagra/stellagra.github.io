@@ -1,12 +1,27 @@
 
+@inproceedings{alex_2024,
+	title = {Towards Digitisation of Technical Drawings in Architecture: Evaluation of CNN Classification on the Perdaw Dataset},
+	abstract = {In a highly digitalised world, this paper aims at closing the gap towards automatic digitisation from 2D architectural drawings. 
+We present the new image dataset {Plan, and Elevation Representations of Doors And Windows} (Perdaw) which provides a baseline for different classification problems with varying complexity. 
+We investigate the performance of three machine learning models in distinguishing different types of doors and windows in their plan and elevation views. 
+Our findings show that Inception V3 slightly outperforms MobileNet V2, which suggests that the latter solves the same classification tasks with less computational resources with only a minimal compromise in accuracy. Among the three investigated models, ResNet50 yields the lowest quality metrics within a small margin. Overall, all models perform better at classifying building components in their elevation views compared to their plan views. We consistently observed that the models yield the best results with 100% accuracy for the binary classification problems, and dropped to close to 70% accuracy for the 40-class classification problems.},
+	booktitle = {International Conference on Engineering Applications of Neural Networks (EANN)},
+	author = {Alexandru Filip and Stella Graßhof},
+	month = jun,
+	year = {2024},
+    selected={false},
+	website={https://github.com/alexandru-filip/perdaw-dataset}
+}
+
 @inproceedings{ibh_tempose_2024,
 	title = {A stroke of genius: Predicting the next move in badminton},
 	abstract = {This paper presents, {RallyTemPose}, a transformer encoder-decoder model for predicting future badminton strokes based on previous rally actions. The model uses court position, skeleton poses, and player-specific embeddings to learn stroke and player-specific latent representations in a spatiotemporal encoder module. The representations are then used to condition the subsequent strokes in a decoder module through rally-aware fusion blocks, which provide additional relevant strategic and technical considerations to make more informed predictions. RallyTemPose shows improved forecasting accuracy compared to traditional sequential methods on two real-world badminton datasets. The performance boost can also be attributed to the inclusion of improved stroke embeddings extracted from the latent representation of a pre-trained large-language model subjected to detailed text descriptions of stroke descriptions. In the discussion, the latent representations learned by the encoder module show useful properties regarding player analysis and comparisons.},
 	booktitle = {2024 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops} ({CVPRW})},
-	author = {Ibh, Magnus and Graßhof, Stella and Witzner, Dan},
+	author = {Ibh, Magnus and Graßhof, Stella and Witzner, Dan, and Madeleine, Pascal},
 	month = jun,
 	year = {2024},
-    selected={false}
+        selected={true},
+	website={https://github.com/MagnusPetersenIbh/RallyTemPose-Predicting-the-next-stroke-in-badminton}
 }
 
 @inproceedings{haas_discovering_2024,
@@ -20,7 +35,9 @@ Our approaches are applicable without requiring any architectural modifications,
 	author = {Haas, René and Huberman-Spiegelglas, Inbar and Mulayoff, Rotem and Brandt, Sami and Graßhof, Stella and Michaeli, Tomer},
 	month = may,
 	year = {2024},
-	booktitle = {18th IEEE International Conference on Automatic Face and Gesture Recognition}
+	booktitle = {18th IEEE International Conference on Automatic Face and Gesture Recognition},
+	website={https://github.com/renhaa/semantic-diffusion},
+    selected={true}
 }
 
 
@@ -64,7 +81,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
     selected={true},
 	preview={2023_magnus_cvpr2.png},
 	pdf={2023_Ibh_cvprw_tempose.pdf},
-	website={https://github.com/MagnusPetersenIbh/TemPose-BadmintonActionRecognition/tree/main}
+	website={https://github.com/MagnusPetersenIbh/TemPose-BadmintonActionRecognition}
 }
 
 @inproceedings{haas_controllable_2023,
@@ -122,7 +139,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
 	month = feb,
 	year = {2022},
 	pdf={2022_bastholm_icpram.pdf},
-	preview={2022_bastholm_icpram.png}
+	preview={2022_bastholm_icpram.gif}
 }
 
 @inproceedings{grashof_tensor-based_2022,

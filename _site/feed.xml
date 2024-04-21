@@ -1,5 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-10T20:27:40+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">René’s PhD defense</title><link href="http://localhost:4000/blog/2023/rene_defense/" rel="alternate" type="text/html" title="René’s PhD defense" /><published>2023-11-24T20:00:00+01:00</published><updated>2023-11-24T20:00:00+01:00</updated><id>http://localhost:4000/blog/2023/rene_defense</id><content type="html" xml:base="http://localhost:4000/blog/2023/rene_defense/"><![CDATA[<p>Today was the defense of the very first PhD student I had the pleasure to officially co-supervise: René Haas. I could not be prouder. Shortly, after I started working at ITU 2019 we started working together with Sami S. Brandt, on a research project titled <em>Synthesis of Face Images Using Generative Algorithms</em>. This project was then extended into a Master thesis <em>Exploring the latent space of StyleGAN for semantic face editing and expression transfer</em>. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-04-22T00:11:22+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">René’s PhD defense</title><link href="http://localhost:4000/blog/2023/rene_defense/" rel="alternate" type="text/html" title="René’s PhD defense" /><published>2023-11-24T20:00:00+01:00</published><updated>2023-11-24T20:00:00+01:00</updated><id>http://localhost:4000/blog/2023/rene_defense</id><content type="html" xml:base="http://localhost:4000/blog/2023/rene_defense/"><![CDATA[<p>Today was the defense of the very first PhD student I had the pleasure to officially co-supervise: René Haas. I could not be prouder. Shortly, after I started working at ITU 2019 we started working together with Sami S. Brandt, on a research project titled <em>Synthesis of Face Images Using Generative Algorithms</em>. This project was then extended into a Master thesis <em>Exploring the latent space of StyleGAN for semantic face editing and expression transfer</em>. 
 This lead to a proposal for a PhD project, which got accepted, and the rest is history!</p>
 
 <p>And finally today René defended his thesis with the title <em>Deep Generative Models for Faces and Expressions</em> with great success. 
-A big thank you also to the committee members <a href="https://veronikach.com/">Veronika Cheplygina</a>, <a href="https://fredkahl.github.io/">Fredrik Kahl</a>, and <a href="https://users.aalto.fi/~laines9/">Samuli Laine</a>.</p>]]></content><author><name></name></author><category term="events" /><summary type="html"><![CDATA[Impressions from my first PhD defense on the other side.]]></summary></entry></feed>
+A big thank you also to the committee members <a href="https://veronikach.com/">Veronika Cheplygina</a>, <a href="https://fredkahl.github.io/">Fredrik Kahl</a>, and <a href="https://users.aalto.fi/~laines9/">Samuli Laine</a>.</p>]]></content><author><name></name></author><category term="events" /><summary type="html"><![CDATA[Impressions from my first PhD defense on the other side.]]></summary></entry><entry><title type="html">Mathias’ Best Paper Award</title><link href="http://localhost:4000/blog/2022/mathias_award/" rel="alternate" type="text/html" title="Mathias’ Best Paper Award" /><published>2022-03-24T20:00:00+01:00</published><updated>2022-03-24T20:00:00+01:00</updated><id>http://localhost:4000/blog/2022/mathias_award</id><content type="html" xml:base="http://localhost:4000/blog/2022/mathias_award/"><![CDATA[<p>It does not happen so often that the work of our students get’s submitted to a conference. This time, not only was the work of Mathias submitted to a conference, it was also accepted for publication, and received the best student paper award! 
+Congratulations to Mathias’ for this great achievement!</p>
+
+<!--[assets/img/2022_03_award_mathias.png]-->
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/2022_03_award_mathias.jpg" class="img-fluid rounded z-depth-1" width="80%" height="auto" title="Mathias (middle) with his supervisors Stella (left) and Sami (right)" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<!--The corresponding paper 
+"Neural Network-based Human Motion Smoother", Mathias Bastholm , Stella Graßhof, and Sami Brandt, In the International Conference on Pattern Recognition Applications and Methods (ICPRAM), Feb 2022 -->
+
+<h1 id="references">References</h1>
+<div class="publications">
+  <h2 class="bibliography">2022</h2>
+<ol class="bibliography"><li><div class="row">
+  
+    <div class="col-sm-2 preview">
+      
+        
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/2022_bastholm_icpram.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="2022_bastholm_icpram.gif" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="bastholm_neural_2022" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Neural Network-based Human Motion Smoother</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Mathias
+            Bastholm
+          ,&nbsp;<em>Stella
+            Graßhof</em>,&nbsp;and&nbsp;Sami
+            Brandt
+          
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In the International Conference on Pattern Recognition Applications and Methods (ICPRAM)</em> ,  Feb 2022
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+        
+          <a href="/assets/pdf/2022_bastholm_icpram.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Recording real life human motion as a skinned mesh animation with an acceptable quality is usually difficult. Even though recent advances in pose estimation have enabled motion capture from off-the-shelf webcams, the low quality makes it infeasible for use in production quality animation. This work proposes to use recent advances in the prediction of human motion through neural networks to augment low quality human motion, in an effort to bridge the gap between cheap recording methods and high quality recording. First, a model, competitive with prior work in short-term human motion prediction, is constructed. Then, the model is trained to clean up motion from two low quality input sources, mimicking a real world scenario of recording human motion through two webcams. Experiments on simulated data show that the model is capable of significantly reducing noise, and it opens the way for future work to test the model on annotated data.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
+</div>]]></content><author><name></name></author><category term="student" /><summary type="html"><![CDATA[It does not happen so often that the work of our students get’s submitted to a conference. This time, not only was the work of Mathias submitted to a conference, it was also accepted for publication, and received the best student paper award! Congratulations to Mathias’ for this great achievement!]]></summary></entry></feed>
