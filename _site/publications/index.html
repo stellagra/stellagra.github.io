@@ -421,7 +421,27 @@ Our findings show that Inception V3 slightly outperforms MobileNet V2, which sug
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col-sm-2 preview">
+      
+        
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/2024_haas_fg.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="2024_haas_fg.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
       
     </div>
   
@@ -481,10 +501,18 @@ Our findings show that Inception V3 slightly outperforms MobileNet V2, which sug
       
       
       
+        
+          <a href="/assets/pdf/2024_haas_fg.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
       
       
       
       
+      
+      
+        
+          <a href="/assets/pdf/2024_haas_fg_poster.pdf" class="btn btn-sm z-depth-0" role="button">Poster</a>
+        
       
       
       
@@ -644,11 +672,12 @@ The evaluation shows that selecting real data with active learning for fine-tuni
       
 
       
-      Luiza Ribeiro
-            Marnet
-          , <em>Stella
-            Graßhof</em>, Yuri
+      Luiza
+            Ribeiro Marnet
+          , Yury
             Brodskiy
+          , Stella
+            Grasshof
           , and
         <span class="more-authors" title="click to view 1 more author" onclick="
               var element = $(this);
@@ -674,7 +703,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
     
     
     <div class="periodical">
-      <em>In Proceedings of the 4th International Conference on Robotics, Computer Vision and Intelligent Systems (ROBOVIS)</em> ,  Mar 2024
+      <em>In Robotics, Computer Vision and Intelligent Systems</em> ,  May 2024
     </div>
     <div class="periodical">
       
@@ -711,8 +740,7 @@ The evaluation shows that selecting real data with active learning for fine-tuni
     
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>Active learning aims to select the minimum amount of data to train a model that performs similarly to a model trained with the entire dataset. We study the potential of active learning for image segmentation in underwater infrastructure inspection tasks, where large amounts of data are typically collected. The pipeline inspection images are usually semantically repetitive but with great variations in quality. We use mutual information as the acquisition function, calculated using Monte Carlo dropout. HyperSeg is trained using active learning with an underwater pipeline inspection dataset of over 50,000 images. To allow reproducibility and assess the framework’s effectiveness, the CamVid dataset was also utilized. For the pipeline dataset, HyperSeg with active learning achieved 67.5% meanIoU using 12.5% of the data, and 61.4
-% with the same amount of randomly selected images. This shows that using active learning for segmentation models in underwater inspection tasks can lower the cost significantly.</p>
+        <p>Active learning aims to select the minimum amount of data to train a model that performs similarly to a model trained with the entire dataset. We study the potential of active learning for image segmentation in underwater infrastructure inspection tasks, where large amounts of data are typically collected. The pipeline inspection images are usually semantically repetitive but with great variations in quality. We use mutual information as the acquisition function, calculated using Monte Carlo dropout. HyperSeg is trained using active learning with an underwater pipeline inspection dataset of over 50,000 images. To allow reproducibility and assess the framework’s effectiveness, the CamVid dataset was also utilized. For the pipeline dataset, HyperSeg with active learning achieved 67.5% meanIoU using 12.5% of the data, and 61.4% with the same amount of randomly selected images. This shows that using active learning for segmentation models in underwater inspection tasks can lower the cost significantly.</p>
       </div>
     
 

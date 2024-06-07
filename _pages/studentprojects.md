@@ -48,7 +48,7 @@ The different abbreviations are referring to the following types
 - 2024, MSc, *Domain-aware embeddings for anomaly detection*
 - 2024, MSc, *Estimation of geo-location from images*, 2 students
 - 2024, MSc, *Customer behaviour analysis*
-- 2024, BSc, *Audio Analysis*, 3 students
+- 2024, BSc, *Event Detection with Fiber Optic Acoustic Sensing*, 3 students
 - 2024, MSc, *Synthesis of realistic 3D facial animation from audio*
 
 
