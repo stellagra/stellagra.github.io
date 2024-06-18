@@ -4,7 +4,7 @@ title: Mathias' Best Paper Award
 date: 2022-03-24 19:00:00
 description: 
 #tags: events, research 
-categories: student
+categories: academic life
 code_diff: true
 img: assets/img/2022_03_award_mathias.png
 ---

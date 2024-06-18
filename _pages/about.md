@@ -27,5 +27,5 @@ Currently, I am happily co-supervising the following three bright PhD students:
 - [Luiza Ribeiro Marnet](https://www.linkedin.com/in/luiza-ribeiro-marnet-378259116) with [Andrzej Wąsowski](http://www.itu.dk/people/wasowski/) and [Yury Brodskiy](https://www.linkedin.com/in/yurybrodskiy/)
 - [Magnus Ibh](https://pure.itu.dk/en/persons/magnus-ibh) with [Dan Witzner Hansen](https://pure.itu.dk/en/persons/dan-witzner-hansen) and [Pascal Madeleine](https://vbn.aau.dk/da/persons/102245)
 
-The first PhD student [René Haas](https://pure.itu.dk/da/persons/ren%C3%A9-haas), whom I co-supervised with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt), finished end of 2023, and delivered an excellent thesis. More details about his work will be published [here](http://stellagrasshof.com/projects/3_project/).
+The first PhD student [René Haas](https://www.linkedin.com/in/haasrene/?originalSubdomain=dk), whom I co-supervised with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt), finished end of 2023, and delivered an excellent thesis. More details about his work will be published [here](http://stellagrasshof.com/projects/3_project/). 
 
