@@ -4,7 +4,7 @@ title: René's PhD defense
 date: 2023-11-24 19:00:00
 description: Impressions from my first PhD defense on the other side. 
 #tags: events, research 
-categories: academic life
+categories: academic_life
 code_diff: true
 ---
 
