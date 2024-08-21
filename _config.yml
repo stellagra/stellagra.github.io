@@ -264,7 +264,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["research", "productivity", "fun"] # these tags will be displayed on the front page of your blog
+display_tags: ["productivity"] # these tags will be displayed on the front page of your blog
 display_categories: ["tools", "academic_life"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
