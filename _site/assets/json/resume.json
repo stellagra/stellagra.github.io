@@ -1,0 +1,65 @@
+{
+  "basics": {
+    "name": "Stella Grasshof",
+    "label": "Assistant Professor",
+    "image": "",
+    "email": "stgr@itu.dk",
+    "url": "stellagrasshof.com",
+    "summary": "Born in Germany, working in Denmark as an Assistant Professor in the Computer Science Department at the IT University of Copenhagen.",
+    "location": {
+      "city": "Copenhagen",
+      "countryCode": "DK",
+      "region": "Denmark"
+    }
+  },
+  "education": [
+    {
+      "institution": "TNT, Leibniz Universität Hannover (LUH)",
+      "location": "Hannover, Germany",
+      "url": "https://www.tnt.uni-hannover.de",
+      "area": "Mathematics and Computer Science",
+      "studyType": "Dr.-Ing. (PhD)",
+      "startDate": "2012-04",
+      "endDate": "2019-11"
+    },
+    {
+      "institution": "Universität zu Lübeck",
+      "location": "Lübeck, Germany",
+      "url": "",
+      "area": "Computational Life Science (CLS)",
+      "studyType": "Master of Science",
+      "startDate": "",
+      "endDate": "2012-03"
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Danish",
+      "fluency": "Beginner",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Machine Learning",
+      "icon": "",
+      "keywords": [
+        "Non-rigid Structure from Motion",
+        "3D reconstruction",
+        "Factorisation",
+        "Human Motion",
+        "Mental Health applications"
+      ]
+    }
+  ]
+}
