@@ -40,7 +40,7 @@ Some interesting keywords for your project include but are not limited to:
 - Image Generation and Classification
 
 Feel free to contact me with project suggestions. Be mindful that I have a limited capacity of supervisions I am agreeing to at a time, therefore please reach out early. 
-Additionally, you can consider a joint supervision, which gives the opportunity to combine the knowledge of different people. 
+You can consider a joint supervision, which gives the opportunity to combine the knowledge of different people. 
 
 ## Projects elsewhere 
 You also might want to look elsewhere at ITU. You can find interesting student projects in the following groups here:
