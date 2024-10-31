@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-08-23T13:41:52+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Tools which make your life easier</title><link href="http://localhost:4000/blog/2024/tools/" rel="alternate" type="text/html" title="Tools which make your life easier" /><published>2024-06-17T20:30:00+02:00</published><updated>2024-06-17T20:30:00+02:00</updated><id>http://localhost:4000/blog/2024/tools</id><content type="html" xml:base="http://localhost:4000/blog/2024/tools/"><![CDATA[<p>Beyond the common and most frequent suggestion “ChatGPT”, there are so many tools out there which can make your (work) life so much easier!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-31T14:32:37+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">How I create scientific posters</title><link href="http://localhost:4000/blog/2024/poster/" rel="alternate" type="text/html" title="How I create scientific posters" /><published>2024-10-25T20:00:00+02:00</published><updated>2024-10-25T20:00:00+02:00</updated><id>http://localhost:4000/blog/2024/poster</id><content type="html" xml:base="http://localhost:4000/blog/2024/poster/"><![CDATA[<p>You have to prepare a scientific poster and don’t know where to start?</p>
+
+<p>Here I describe my approach in creating posters for conferences. 
+While it might not the best approach for everyone, it works for me, and hopefully provides some inspiration for you.</p>
+
+<h2 id="short-step-by-step-guide">Short Step-by-step Guide</h2>
+
+<p>Without focussing on the content too much do the following:</p>
+
+<ol>
+  <li>Set up a poster template PowerPoint. This provides an empty digital canvas.</li>
+  <li>Print the publication in color one page layout.</li>
+  <li>Distribute the single pages in a space (floor, whiteboard, …)</li>
+  <li>Cut out parts of the paper, i.e. figures, tables, paragraphs.</li>
+  <li>Re-arrange parts on a big surface of choice (floor, table, whiteboard with magnets) until the layout is finished.</li>
+  <li>Arrange elements in PowerPoint correspondingly.</li>
+  <li>Collect feedback from people of choice.</li>
+  <li>rinse-repeat.</li>
+</ol>
+
+<h2 id="reflection-and-comments">Reflection and comments</h2>
+<p>You might wonder why I use PowerPoint if the paper is written with LaTeX. 
+In fact in the past I used LaTeX, but found PowerPoint more flexible, because:</p>
+<ol>
+  <li>it is WYSIWYG (what you see is what you get).</li>
+  <li>I like to move pictures, and textboxes freely by hand, and feel that it gives me more flexibility and less troubles than LaTeX.</li>
+  <li>Equations: In the past I used LaTeX for posters specifically because it was easier to write equations. However, since I discovered the plugin IguanaTex for PowerPoint, this sealed the deal for me.</li>
+</ol>
+
+<p>In conclusion: PowerPoint might not the best tool for posters in general, but it works for me.</p>]]></content><author><name></name></author><category term="work" /><category term="tools" /><summary type="html"><![CDATA[My approach on creating posters for conferences and research events.]]></summary></entry><entry><title type="html">Tools which make your life easier</title><link href="http://localhost:4000/blog/2024/tools/" rel="alternate" type="text/html" title="Tools which make your life easier" /><published>2024-06-17T20:30:00+02:00</published><updated>2024-06-17T20:30:00+02:00</updated><id>http://localhost:4000/blog/2024/tools</id><content type="html" xml:base="http://localhost:4000/blog/2024/tools/"><![CDATA[<p>Beyond the common and most frequent suggestion “ChatGPT”, there are so many tools out there which can make your (work) life so much easier!</p>
 
 <h2 id="latex-and-powerpoint---the-best-of-both-worlds">LaTeX and Powerpoint - The best of both worlds</h2>
 
