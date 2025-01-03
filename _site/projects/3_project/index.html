@@ -158,6 +158,12 @@
             
           
             
+          
+            
+          
+            
+          
+            
               
                 <li class="nav-item active">
                   
@@ -259,11 +265,13 @@
   </header>
 
   <article>
-    <p>This page shall showcase the remarkable work of René Haas before and during his PhD.
-At the moment it is a collection of his published papers, see below. 
-(work in progress.)</p>
+    <p>This page shall showcase the remarkable work of René Haas before and during his PhD.</p>
 
-<p>An image example from an earlier publication in 2021:</p>
+<h2 id="generative-adversarial-networks">Generative Adversarial Networks</h2>
+
+<p>While <a href="https://stellagrasshof.com/projects/1_project/" rel="external nofollow noopener" target="_blank">my own PhD project</a> was strictly based on non-neural-network methods, René expanded on my work and successfully combined old and new machine learning concepts.
+Specifically, a factorization approach was employed in the latent space of StyleGAN. 
+It turned out that using this set-up the rotation and expression of faces can be changed, as illustrated in the findings published 2021:</p>
 
 <figure>
   <picture>
@@ -273,13 +281,51 @@ At the moment it is a collection of his published papers, see below.
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-    <img src="/assets/img/publication_preview/2021_haas_fg.png" class="img-fluid rounded z-depth-1" width="50%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/gen_face/2021_tensorgan_expr_transfer.png" class="img-fluid rounded z-depth-1" width="80%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
 </figure>
 
-<p>Eventually you will find more details on this page.</p>
+<p>Based on this work published in 2021, some improvements were presented in the follow-up published in 2022. 
+We show-case the change of facial expression in the following.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/gen_face/2022_tensorgan_cvpr_ws.png" class="img-fluid rounded z-depth-1" width="80%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+<p>Comparing the two images, the individual features are better preserved than in the previous work. Find more details on this <a href="https://github.com/renhaa/tensorgan" rel="external nofollow noopener" target="_blank">website</a>.</p>
+
+<p>Since 2022, much progress has been made in the field. Particularly, the community has moved from Generative Adversarial Networks (GANs) to Diffusion Models.</p>
+
+<h2 id="diffusion-models">Diffusion Models</h2>
+
+<p>In our latest publication we describe how to perform supervised and unsupervised editing of face images using diffusion models.<br>
+Check out the <a href="https://github.com/renhaa/semantic-diffusion" rel="external nofollow noopener" target="_blank">project webpage</a> for more details and code.</p>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/gen_face/fg2024_crop.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
 
 <h2 id="references">References</h2>
 <div class="publications">
@@ -736,7 +782,7 @@ Our approaches are applicable without requiring any architectural modifications,
     
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      © Copyright 2024
+      © Copyright 2025
       Stella
       
       Grasshof. 

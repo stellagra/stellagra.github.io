@@ -1,22 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-31T14:32:37+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">How I create scientific posters</title><link href="http://localhost:4000/blog/2024/poster/" rel="alternate" type="text/html" title="How I create scientific posters" /><published>2024-10-25T20:00:00+02:00</published><updated>2024-10-25T20:00:00+02:00</updated><id>http://localhost:4000/blog/2024/poster</id><content type="html" xml:base="http://localhost:4000/blog/2024/poster/"><![CDATA[<p>You have to prepare a scientific poster and don’t know where to start?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-01-03T16:57:30+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Being Grateful</title><link href="http://localhost:4000/blog/2025/grateful/" rel="alternate" type="text/html" title="Being Grateful" /><published>2025-01-03T13:00:00+01:00</published><updated>2025-01-03T13:00:00+01:00</updated><id>http://localhost:4000/blog/2025/grateful</id><content type="html" xml:base="http://localhost:4000/blog/2025/grateful/"><![CDATA[<h1 id="gratitude">Gratitude</h1>
+<p>It’s that time of year again when many share their successes from the past year. 
+Some have been earned with hard work, some might have been sheer luck. 
+When you read the posts on linkedin, you might not be able to tell the difference.
+Additionally, failures are rarely ever shared. 
+Let’s pause.</p>
 
-<p>Here I describe my approach in creating posters for conferences. 
-While it might not the best approach for everyone, it works for me, and hopefully provides some inspiration for you.</p>
+<div style="text-align: center;">
+  
 
-<h2 id="short-step-by-step-guide">Short Step-by-step Guide</h2>
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/blog/winter_window_sunrise.png" class="img-fluid rounded z-depth-1" width="50%" height="auto" title="colorful winter sunrise seen through a window" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+</div>
+
+<h2 id="just-be-here">Just be here</h2>
+
+<p>Some time ago, I embarked on a journey of mindfulness and gratitude, and I’ve come to realize it’s not a destination — it’s a continuous process. And that’s the point: enjoying the ride.</p>
+
+<p><code class="language-plaintext highlighter-rouge">"People often say that motivation doesn’t last. Well, neither does bathing, that’s why we recommend it daily." - Zig Ziglar</code></p>
+
+<p>Many of us rush through our days, often forgetting to pause and appreciate the present moment. I’m guilty of this more often than I’d like to admit. 
+Finding a balance between distraction and focus is challenging. 
+I believe there’s no clear black-and-white distinction; instead, we navigate on a scale of shades of gray between distraction and focus.</p>
+
+<ul>
+  <li>On one end, distractions can pull us in many directions at a time, leaving us scattered and unproductive. Sometimes, distractions offer a sweet escape from the daily grind.</li>
+  <li>On the other, hyper-fixation can consume us so fully that we lose track of time and perspective, while immersing ourself in a productive flow state.</li>
+</ul>
+
+<p>However, both states share one drawback: time slips away unnoticed, and the simple, everyday moments fade into the background. 
+Let’s pause and observe our surroundings. Look at what we take for granted too often, and appreciate what we have for just a moment.</p>
+
+<h2 id="what-i-take-for-granted-too-often">What I take for granted too often</h2>
+
+<p>There are many things which we tend to forget too easily in our daily life. 
+I want to share an incomplete list of things with you, which many people in my social bubble often take for granted, myself included.</p>
+
+<ol>
+  <li>
+    <p>I never experienced war. I was fortunate enough to be born in a country which was not affected by war within my life time. I won the birth lottery!</p>
+  </li>
+  <li>
+    <p>I never experienced my house burning down or being flooded or losing all my possessions in any other way. I always had a roof over my head or a place to sleep (excluding a few unusual travel experiences).</p>
+  </li>
+  <li>
+    <p>I never experienced a life-threatening illness. I am (mostly) healthy.</p>
+  </li>
+  <li>
+    <p>I never experienced hunger for long. I always got food eventually.
+In fact I can go to a supermarket close to me and buy whatever food I like. 
+This is a luxury, which I did not always have. Especially during my studies I had to make careful choices to make the most of the money which I had.</p>
+  </li>
+  <li>
+    <p>I feel privileged that I like my job, and can make a living with it.</p>
+  </li>
+</ol>
+
+<p>Today, I got to experience some sun, and enjoy a nice cup of coffee with my loved ones. I am grateful for those moments which make me feel truly rich.</p>
+
+<h2 id="to-you">To You</h2>
+
+<p>If you are reading this, than we share at least one thing: 
+Our track record of making it through shitty days is 100%. Be proud. 
+If you did not achieve something you consider “great” within the last year, be reminded that sometimes surviving is enough. Be gracious. Be your own true best friend.</p>
+
+<p>As we step into the new year, take a moment to appreciate how far you’ve come. Celebrate your resilience, enjoy the little things, and remember — you got this.</p>]]></content><author><name></name></author><category term="private" /><category term="mentalhealth" /><summary type="html"><![CDATA[reflection]]></summary></entry><entry><title type="html">How I create scientific posters</title><link href="http://localhost:4000/blog/2024/poster/" rel="alternate" type="text/html" title="How I create scientific posters" /><published>2024-10-25T20:00:00+02:00</published><updated>2024-10-25T20:00:00+02:00</updated><id>http://localhost:4000/blog/2024/poster</id><content type="html" xml:base="http://localhost:4000/blog/2024/poster/"><![CDATA[<p>You have to prepare a scientific poster and don’t know where to start?</p>
+
+<p>Here I describe my approach in creating posters for conferences and scientific meetings based on an already written publication or article.</p>
+
+<h2 id="step-by-step-guide">Step-by-step Guide</h2>
 
 <p>Without focussing on the content too much do the following:</p>
 
 <ol>
-  <li>Set up a poster template PowerPoint. This provides an empty digital canvas.</li>
+  <li>Set up a poster template PowerPoint including setting the size appropriately. This provides an empty digital canvas.</li>
   <li>Print the publication in color one page layout.</li>
   <li>Distribute the single pages in a space (floor, whiteboard, …)</li>
   <li>Cut out parts of the paper, i.e. figures, tables, paragraphs.</li>
   <li>Re-arrange parts on a big surface of choice (floor, table, whiteboard with magnets) until the layout is finished.</li>
   <li>Arrange elements in PowerPoint correspondingly.</li>
   <li>Collect feedback from people of choice.</li>
-  <li>rinse-repeat.</li>
+  <li>Rinse and repeat. Stop when you are satisfied. Avoid infinite loops ;)</li>
 </ol>
+
+<h3 id="guide-with-pictures">Guide with pictures</h3>
+<p>Above you saw the general instructions.
+In the following I will add some visual impressions for some steps from one of my own processes.</p>
+
+<ol>
+  <li>poster template:
+When setting up the template in powerpoint it is crucial to select the correct size. You can adjust the slide size under the tab “Design”, under “Custom Slide Size”, as you can see in the following screen shots.</li>
+</ol>
+<div class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/2024_10_25_poster/screenshot_pptx01b.png/" class="img-fluid rounded z-depth-1" width="200%" height="auto" title="powerpoint screenshot" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/2024_10_25_poster/screenshot_pptx02.png" class="img-fluid rounded z-depth-1" width="60%" height="auto" title="powerpoint screenshot submenu" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<ol>
+  <li>Distribute print-out pieces on the floor. One of the intermediate steps.</li>
+</ol>
+
+<div style="text-align: center;">
+ 
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/2024_10_25_poster/floor3.jpg" class="img-fluid rounded z-depth-1" width="50%" height="auto" title="pieces on the floor" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+</div>
+
+<ol>
+  <li>Final Poster - example</li>
+</ol>
+
+<div style="text-align: center;">
+ 
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/2024_10_25_poster/2024_05_fg_poster.png" class="img-fluid rounded z-depth-1" width="50%" height="auto" title="final conference poster" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+</div>
 
 <h2 id="reflection-and-comments">Reflection and comments</h2>
 <p>You might wonder why I use PowerPoint if the paper is written with LaTeX. 
