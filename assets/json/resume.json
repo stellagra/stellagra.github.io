@@ -5,7 +5,7 @@
     "image": "",
     "email": "stgr@itu.dk",
     "url": "stellagrasshof.com",
-    "summary": "Born in Germany, working in Denmark as an Assistant Professor in the Computer Science Department at the IT University of Copenhagen.",
+    "summary": "Born in Germany, working in Denmark as an Assistant Professor in the Data Science Section at the IT University of Copenhagen.",
     "location": {
       "city": "Copenhagen",
       "countryCode": "DK",
@@ -19,17 +19,17 @@
       "url": "https://www.tnt.uni-hannover.de",
       "area": "Mathematics and Computer Science",
       "studyType": "Dr.-Ing. (PhD)",
-      "startDate": "2012-04",
-      "endDate": "2019-11"
+      "startDate": "04.2012 ",
+      "endDate": "11.2019"
     },
     {
       "institution": "Universität zu Lübeck",
       "location": "Lübeck, Germany",
-      "url": "",
+      "url": "https://www.mic.uni-luebeck.de/teaching/student-projects",
       "area": "Computational Life Science (CLS)",
       "studyType": "Master of Science",
       "startDate": "",
-      "endDate": "2012-03"
+      "endDate": "03.2012"
     }
   ],
   "languages": [
