@@ -3,8 +3,8 @@ layout: post
 title: René's PhD defense
 date: 2023-11-24 19:00:00
 description: Impressions from my first PhD defense on the other side. 
-#tags: events, research 
-categories: academic_life
+categories: "Academic Life"
+tags: ["PhD", "achievements"]
 code_diff: true
 ---
 

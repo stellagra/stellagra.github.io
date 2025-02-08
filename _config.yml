@@ -108,8 +108,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Stella's blog # blog_name will be displayed in your blog page
-blog_description: Welcome to my blog!
+blog_name: "Academia & Beyond"  # blog_name will be displayed in your blog page
+blog_description: Tips, tricks, and thoughts about research, life, and learning
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -264,8 +264,9 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["productivity"] # these tags will be displayed on the front page of your blog
-display_categories: ["tools", "academic_life"] # these categories will be displayed on the front page of your blog
+display_categories: ["Academic Life", "Productivity & Tools", "Research & Knowledge", "Personal Reflection"] # these categories will be displayed on the front page of your blog
+display_tags: ["achievements", "conferences", "PhD", "software","mental health", "mindset"] # these tags will be displayed on the front page of your blog
+#display_tags: ["PhD", "supervision", "mentoring", "conferences", "efficiency", , "gratitude", "work-life balance"] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
