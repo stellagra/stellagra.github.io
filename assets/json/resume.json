@@ -52,13 +52,13 @@
   "interests": [
     {
       "name": "Machine Learning",
-      "icon": "",
       "keywords": [
+        "Mental Health Applications", 
+        "Mental Disorders",
+        "Human Motion", 
         "Non-rigid Structure from Motion",
         "3D reconstruction",
-        "Factorisation",
-        "Human Motion",
-        "Mental Health applications"
+        "Factorisation"
       ]
     }
   ]
