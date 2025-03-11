@@ -38,9 +38,9 @@ Consider the following an incomplete list of my research interests.
 Some interesting keywords for your project include but are not limited to:
 
 - Machine Learning applications focussing on mental health, mental disorders, and health applications
-- Generative AI 
+- Generative AI: Diffusion Models, GANs, etc.
 - Deep Fake Detection: focussing on visual domain
-- Human Motion Analysis
+- Human Motion Analysis, e.g. by Vision Transformers
 - 3D reconstruction
 - Image Generation and Classification
 

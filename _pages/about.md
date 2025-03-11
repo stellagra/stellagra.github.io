@@ -23,9 +23,10 @@ To get a better understanding of my research and interests, please check my [pub
 Additionally, I am affiliated with the [Pioneer Centre for AI](https://www.aicentre.dk/), active member and board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin). 
 
 Currently, I am happily co-supervising the following three bright PhD students:
+- [Leo Vitasovic](https://pure.itu.dk/da/persons/leo-vitasovic) with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt)
 - [Martin Lund Trinhammer](https://pure.itu.dk/da/persons/martin-lund-trinhammer) with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt)
-- [Luiza Ribeiro Marnet](https://www.linkedin.com/in/luiza-ribeiro-marnet-378259116) with [Andrzej Wąsowski](http://www.itu.dk/people/wasowski/) and [Yury Brodskiy](https://www.linkedin.com/in/yurybrodskiy/)
 - [Magnus Ibh](https://pure.itu.dk/en/persons/magnus-ibh) with [Dan Witzner Hansen](https://pure.itu.dk/en/persons/dan-witzner-hansen) and [Pascal Madeleine](https://vbn.aau.dk/da/persons/102245)
+- [Luiza Ribeiro Marnet](https://www.linkedin.com/in/luiza-ribeiro-marnet-378259116) with [Andrzej Wąsowski](http://www.itu.dk/people/wasowski/) and [Yury Brodskiy](https://www.linkedin.com/in/yurybrodskiy/)
 
 The first PhD student [René Haas](https://www.linkedin.com/in/haasrene/?originalSubdomain=dk), whom I co-supervised with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt), finished end of 2023, and delivered an excellent thesis. More details about his work will be published [here](http://stellagrasshof.com/projects/3_project/). 
 
