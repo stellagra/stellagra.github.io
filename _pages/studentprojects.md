@@ -65,9 +65,9 @@ The different abbreviations are referring to the following types
 
 ## Currently Ongoing student projects
 Currently, I am supervising several projects focussing on (deep) fake detection, and applications of machine learning in the mental health domain. 
-- 2024, RP, Fake Image Detection
-- 2024, RP, Fake Speech detection
-- 2024, RP, Automatic Depression Detection
+- 2025, MSc, Deep Fake Detection
+- 2025, MSc, Fake Speech detection
+- 2025, MSc, 
   
 (Note that the project titles are preliminary, and might change in the final submission. )
 
@@ -82,7 +82,7 @@ Note:
 
 ### Finalized projects
 
-{: reversed="reversed" start="60"}
+{: reversed="reversed" start="62"}
 1.  2025, RP, *Mental Health Analysis using Machine Learning - Review of Multimodal Machine Learning Methods for Predicting DSM-5 Mental Disorders: A Systematic Analysis*
 2.  2025, RP, *Does GAN-based Upscaling Outperform other Techniques in Matching Human Perception*, 2 students
 3.  2025, RP, *Evaluation of Image Classifiers - Generalization and Robustness Against Alterations*
