@@ -24,5 +24,6 @@ I am working hard on contributing to advancements in the field of mental health 
 In 2023 I was honoured to receive a grant from the Lundbeck Foundation supporting this line of research for a one year project together with [Louise Birkedal Glenthøj](https://research.regionh.dk/da/persons/louise-birkedal-glenth%C3%B8j). 
 
 Furthermore, in end of 2023, we welcomed [Martin Lund Trinhammer](https://pure.itu.dk/da/persons/martin-lund-trinhammer) as a PhD student funded by the [Pioneer Centre for Artificial Intelligence](https://www.aicentre.dk/) to work on topics in this domain. 
-As recipient, I am grateful being the Principal Investigator. 
+
+(Several research publications are under review and will eventually appear here.)
 
