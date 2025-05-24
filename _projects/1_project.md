@@ -3,12 +3,10 @@ layout: page
 title: Expressive Personalized 3D Face Models from 3D Face Scans
 description: PhD project of Stella and ongoing research.
 img: assets/img/phd/face_model_slider.png
-importance: 1
+importance: 2
 category: research
 related_publications: false
 ---
-
-Note: this page is still work in progress, including the selection of nice images created during my Phd. 
 
 
 In 2012 I started my PhD project initially on Talking Heads. The idea was to generate a 3D facial animation of a person with accompanying speech given text. 

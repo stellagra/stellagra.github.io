@@ -3,7 +3,7 @@ layout: page
 title: Automatic Analysis of Mental Health by Machine Learning
 description: PhD project of Martin, and ongoing research.
 img: assets/img/women_fantasy_robot.png
-importance: 2
+importance: 1
 category: research
 related_publications: false
 ---
