@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accountability Session
+title: Working better with Accountability Sessions
 date: 2025-05-22 18:00:00
 description: reflection
 tags: mindset
@@ -8,31 +8,37 @@ categories: Productivity & Tools
 code_diff: true
 ---
 
-It happened to me. I got caught up in my busy work days filled with important meetings and urgent tasks. Student supervision, admin tasks, helping here and there. Trying my best to balance, teaching, supervision, reading, writing, programming, research, and admin tasks.
-Always busy, yet always behind, and somehow never making progress on *my* important tasks.
-Stop.
+The holy grail of productivity. 
 
-What to do?
-1. say no.
-2. plan better.
 
-# Saying "No"
+It happened to me. I got caught up in my busy work days filled with important meetings and urgent tasks. Student supervision, admin tasks, helping here and there. Trying my best to balance, teaching, supervision, reading, writing, programming, research, and admin tasks, while not letting anyone down. 
+Always busy, yet always behind, and somehow never making progress on *my* tasks. 
+Stop. 
+
+What to do? Common advice:
+1. Say "No."
+2. Plan better.
+This is easy advise to give. 
+In the following I am sharing my thoughts on my journey to work and life better as an academic. 
+
+# Say "No"
 If you have read about productivity, then it is likely that you have heard this advise before. 
-But what does it mean? I don't think it is very difficult in my work context to say no to things, which I truely do not want to do (in case I really don't have to). My challenge is to say no to things which I find interesting. 
+I don't think it is very difficult to say no to things, which I truely do not want to do in the case I really don't have to. 
+My challenge is to say no to things which I find interesting. 
 
 
-# Prioritize 
+# "Plan Better" - Prioritize 
 In the book "Four Thousand Weeks: Time Management for Mortals", Oliver Burkeman describes beautifully the following well-known predicament.
 
 In a lecture, the professor places a big jar on their desk.
 They fill it with rocks. "Is it full?" - "Yes!", the students say convinced. 
 They fill it with more pebbles filling out the empty spaces between the rocks. "Is it full now?" - "Yes!?", the students say again. 
-They fill the remainder with sand. "Is it full now?" - "Yes!", the students say even more convinced. 
-The jar is full to the brim how would anything else fit in.
+They fill the remainder with sand. "Is it full now?" - "Yes!", the students say even more convinced. The jar is full to the brim how would anything else fit in.
 Finally, they empty a beer into the big presumably already full jar. 
 
-The analogy is supposedly that the large rocks represent the most important things in your life (like family, health, career), the pebbles represent other important but less critical things, and the sand represents the small, less important tasks and possessions. 
-And yet at the very end there is always space for a beer with friends.
+The message is as follows:
+The large rocks represent the most important things in your life (like family, health, career), the pebbles represent other important but less critical tasks, and the sand represents the small, less important tasks and possessions. While your life seems full to the brim, you can always make space for a beer with friends. 
+
 
 ---
 A professor stands in front of a class with a large empty jar. He fills it with big rocks and asks the students:
