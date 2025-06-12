@@ -71,24 +71,26 @@ The different abbreviations are referring to the following types
 
 ## Currently Ongoing student projects
 Currently, I am supervising several projects focussing on applications of machine learning in the mental health domain, and other computer vision topics.
-<!-- (Note that the project titles are preliminary, and might change in the final submission. ) -->
+Note that the project titles are preliminary, and might change in the final submission. 
+- Semantic Directions in Diffusion Models
+- Fingerprinting scans
 
 ## Finalized student projects at ITU
 This is a list of projects I supervised or co-supervised since I started working at ITU 2019. 
-
 Note: This collection is work in progress. As of now: 
-- Companies involved in the projects are intentionally not mentioned. 
-- Co-supervisions with colleagues happen(ed), and is not (yet) always mentioned. 
+- Year, kind and title are displayed, names in progress. (Why? I did not ask most of my former students yet.)
+- Names will only appear if explicitly agreed. Message me if you would like your name added or removed from this page. 
 - If not stated otherwise, the project has been completed by one student.
-- Names will only appear if explicitly agreed. (You can always ask to have it removed later.)
-- Message me if you would like your name added or removed from this page.
+- Co-supervisions with colleagues happen(ed), and is not always mentioned (yet). 
+- Companies involved in the projects are intentionally not mentioned (yet).
+
 
 ### Finalized projects
 
 {: reversed="reversed" start="73"}
 1.  2025, MSc, *Infant Facial Expression Recognition: Effects of Training Data and Visual Perturbations*, 2 students
 2.  2025, MSc, *From Reproduction to Evaluation: A Language-Only Approach to Depression Detection Using Supervised Machine Learning*
-3.  2025, MSc, *Enhancing Language-Guided Visual Attention with Probabilistic Encoders*, 2 students
+3.  2025, MSc, *Enhancing Language-Guided Visual Attention with Probabilistic Encoders*, 2 students, with external collaborators
 4.  2025, MSc, *Edge AI for Industry: Real-Time Object Detection with Vision-Language Models*, 3 students
 5.  2025, MSc, *Transformer-Based Sequence Modelling for Incident Reconstruction and Triaging in SOC Environments*, 3 students, with [Carsten Schürmann](https://www.itu.dk/~carsten/)
 6.  2025, RP, *Investigating Gender-Specific Facial Movements in Depression: An Exploratory Analysis*, [Courtney Rae Marshall](https://www.linkedin.com/in/courtney-marshall-4732b3203/)
