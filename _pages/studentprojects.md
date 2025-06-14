@@ -97,7 +97,7 @@ Note: This collection is work in progress. As of now:
 7.  2025, MSc, *When Sharing Breaks Detection: The Role of Image Compression in Fake Image Classification Reliability*
 8.  2025, MSc, *DeepFake Audio Classification using Vision Transformers*, 2 students
 9.  2025, RP, *Evaluating Temporal Alignment in Music-to-Video Generative AI*, with [Leo Vitasovic](https://www.linkedin.com/in/leo-vitasovic-10b3721b5/)
-10. 2025, BSc, *Affect Recognition on Infants*, 2 students, with [Martin Lund Trinhammer](https://www.linkedin.com/in/martin-lund-trinhammer-b94420134/)
+10. 2025, BSc, *Affect Recognition on Infants*, 2 students, [Florentina Fabregas Alippi](https://www.linkedin.com/in/florentina-fabregas-alippi-b06133195/) [Raivis Lickrastins](https://www.linkedin.com/in/raivis-lickrastins/), with [Martin Lund Trinhammer](https://www.linkedin.com/in/martin-lund-trinhammer-b94420134/)
 11. 2025, RP, *Is AEC software fixed by Speckle, if so, to what extend?*, 2 students, with [Harshit](https://pure.itu.dk/da/persons/harshit-harshit)
 12. 2025, RP, *Mental Health Analysis using Machine Learning - Review of Multimodal Machine Learning Methods for Predicting DSM-5 Mental Disorders: A Systematic Analysis*
 13. 2025, RP, *Does GAN-based Upscaling Outperform other Techniques in Matching Human Perception*, 2 students
