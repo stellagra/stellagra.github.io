@@ -9,12 +9,12 @@ last_name: Grasshof
 email: stgr@itu.dk
 description: > # the ">" symbol means to ignore newlines until "footer_text:" A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-keywords: machine learning, academic, university # add your own keywords or leave empty
+keywords: machine learning, academic life, university, mental health, depression, bipolar disorder # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://stellagra.github.io/ # the base hostname & protocol for your site
-baseurl:   # the subpath of your site, e.g. /blog/. Leave blank for root
+url: "https://stellagrasshof.com" # the base hostname & protocol for your site
+baseurl:  "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -221,6 +221,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-scholar
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
