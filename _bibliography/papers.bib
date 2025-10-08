@@ -1,4 +1,19 @@
 
+
+@inproceedings{vitasovic_2025_soundsight,
+      title={From Sound to Sight: Towards AI-authored Music Videos}, 
+      author={Leo Vitasovic and Stella Gra\ss{}hof and Agnes Mercedes Kloft and Ville V. Lehtola and Martin Cunneen and Justyna Starostka and Glenn McGarry and Kun Li and Sami S. Brandt},
+      year={2025},
+	  publisher = {IEEE Xplore},
+	  booktitle = {ICCV, Workshop on Generative AI for Storytelling (AISTORY)},
+      url={https://arxiv.org/abs/2509.00029}, 
+	  location={Honolulu, Hawaii, United States},
+	  abstract={Conventional music visualisation systems rely on handcrafted ad hoc transformations of shapes and colours that offer only limited expressiveness. We propose two novel pipelines for automatically generating music videos from any user-specified, vocal or instrumental song using off-the-shelf deep learning models. Inspired by the manual workflows of music video producers, we experiment on how well latent feature-based techniques can analyse audio to detect musical qualities, such as emotional cues and instrumental patterns, and distil them into textual scene descriptions using a language model. Next, we employ a generative model to produce the corresponding video clips. To assess the generated videos, we identify several critical aspects and design and conduct a preliminary user evaluation that demonstrates storytelling potential, visual coherency and emotional alignment with the music. Our findings underscore the potential of latent feature techniques and deep generative models to expand music visualisation beyond traditional approaches. },
+	  preview={vitasovic_2025_soundsight.png},
+	  pdf={2025_vitasovic_sound_to_sight.pdf},
+	  selected={true}
+}
+
 @inproceedings{ertner_2024_mmisports,
 author = {Ertner, Morten Holck and Konglevoll, Sofus Schou and Ibh, Magnus and Gra\ss{}hof, Stella},
 title = {SynthNet: Leveraging Synthetic Data for 3D Trajectory Estimation from Monocular Video},
@@ -7,7 +22,7 @@ year = {2024},
 isbn = {9798400711985},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi-org.ep.ituproxy.kb.dk/10.1145/3689061.3689073},
+url = {https://dl.acm.org/doi/10.1145/3689061.3689073},
 doi = {10.1145/3689061.3689073},
 abstract = {Reconstructing 3D trajectories from video is often cumbersome and expensive, relying on complex or multi-camera setups. This paper proposes SynthNet, an end-to-end pipeline for monocular reconstruction of 3D tennis ball trajectories. The pipeline consists of two parts: Hit and bounce detection and 3D trajectory reconstruction. The hit and bounce detection is performed by a GRU-based model, which segments the videos into individual shots. Next, a fully connected neural network reconstructs the 3D trajectory through a novel physics-based training approach relying on purely synthetic training data. Instability in the training loop caused by relying on Euler-time integration and camera projections is circumvented by our synthetic approach, which directly calculates loss from estimated initial conditions, improving stability and performance. In experiments, SynthNet is compared to an existing reconstruction baseline on a number of conventional and customized metrics defined to validate our synthetic approach. SynthNet outperforms the baseline based on our own proposed metrics and in a qualitative inspection of the reconstructed 3D trajectories.},
 booktitle = {Proceedings of the 7th ACM International Workshop on Multimedia Content Analysis in Sports},
@@ -22,7 +37,7 @@ website={https://www.growkudos.com/publications/10.1145%25252F3689061.3689073/re
 selected={true}
 }
 
-@inproceedings{alex_2024,
+@inproceedings{alex_architecture_2024,
 	title = {Towards Digitisation of Technical Drawings in Architecture: Evaluation of CNN Classification on the Perdaw Dataset},
 	abstract = {In a highly digitalised world, this paper aims at closing the gap towards automatic digitisation from 2D architectural drawings. 
 We present the new image dataset {Plan, and Elevation Representations of Doors And Windows} (Perdaw) which provides a baseline for different classification problems with varying complexity. 
