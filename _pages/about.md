@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Assistant Professor at IT University of Copenhagen</a>
+subtitle: <a href='#'>Associate Professor at IT University of Copenhagen</a>
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am working as an Assistant Professor in the Data Science section at the [IT University of Copenhagen](https://en.itu.dk/) and the [Pioneer Centre for AI](https://www.aicentre.dk/). Additionally, I am an active member and board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin). 
+I am working as an Associate Professor in the Data Science section at the [IT University of Copenhagen](https://en.itu.dk/) and the [Pioneer Centre for AI](https://www.aicentre.dk/). Additionally, I am an active member and board member of the [Lundbeck Foundation Investigator Network](https://lundbeckfonden.com/lfin). 
 
 My research focuses on  **human-centred Machine Learning**, particularly in the area of generative AI for visual data. I am working on developing models that can learn from and synthesize images, videos, and other complex data sources to analyse and synthesize human faces, human motion, and a variety of other visual patterns. While most of my current work is aimed at advancing applications in the mental health domain, my research extends across diverse visual fields, e.g. underwater images. I am collaborating with industry partners on cutting-edge challenges, contributing to innovative solutions.
 
