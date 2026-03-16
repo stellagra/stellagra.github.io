@@ -5,7 +5,7 @@
     "image": "",
     "email": "stgr@itu.dk",
     "url": "stellagrasshof.com",
-    "summary": "Born in Germany, working in Denmark as an Associate Professor in the Data Science Section at the IT University of Copenhagen.",
+    "summary": "Born in Germany, working in Denmark as Associate Professor in the Data Science Section at the IT University of Copenhagen.",
     "location": {
       "city": "Copenhagen",
       "countryCode": "DK",
@@ -55,10 +55,11 @@
       "keywords": [
         "Mental Health Applications", 
         "Mental Disorders",
-        "Human Motion", 
+        "Facial Expression Analysis",
+        "Human Motion", "Sports Analysis", 
         "Non-rigid Structure from Motion",
         "3D reconstruction",
-        "Factorisation"
+        "Generative AI"
       ]
     }
   ]
