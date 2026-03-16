@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "version": "2.0",
+    "lastUpdated": "2026-02-23",
+    "language": "en",
+    "cvUrl": "/cv/",
+    "publicationsUrl": "/publications/",
+    "teachingUrl": "/teaching/",
+    "talksUrl": "/talks/",
+    "projectsUrl": "/projects/"
+  },
+
+  "basics": {
+    "name": "Stella Grasshof",
+    "title": "Associate Professor",
+    "affiliation": "IT University of Copenhagen (ITU), Data Science Section",
+    "location": {
+      "city": "Copenhagen",
+      "region": "Denmark",
+      "countryCode": "DK"
+    },
+    "email": "stgr@itu.dk",
+    "website": "https://stellagrasshof.com",
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "url": "add link here"
+      },
+      {
+        "network": "ORCID",
+        "url": "add link here"
+      },
+      {
+        "network": "Semantic Scholar",
+        "url": "add link here"
+      },
+      {
+        "network": "GitHub",
+        "url": "add link here"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "add link here"
+      }
+    ],
+
+    "branding": {
+      "tagline": "Machine Learning for Human Behavior and Mental Health",
+      "oneLiner": "I develop machine learning methods to model human behavior from visual and multimodal data, with applications in mental health and healthcare.",
+      "keywords": [
+        "machine learning",
+        "computer vision",
+        "multimodal learning",
+        "human behavior modeling",
+        "mental health",
+        "facial expression analysis",
+        "human motion analysis",
+        "3D reconstruction",
+        "generative AI",
+        "responsible AI"
+      ]
+    },
+
+    "summary": "Associate Professor in Data Science at ITU specializing in machine learning for human behavior analysis and mental health applications. My research combines computer vision, multimodal learning, and generative AI to study facial expressions, motion, and social interaction with clinically relevant outcomes. I contribute to the Danish AI ecosystem through committee work and standards initiatives, and I have extensive student supervision experience (100+ theses/projects). Add 1–2 sentences about your current research direction and collaborations here."
+  },
+
+  "highlights": [
+    {
+      "label": "Research focus",
+      "value": "ML for human behavior + mental health; vision & multimodal learning; generative models"
+    },
+    {
+      "label": "Leadership",
+      "value": "Director of P1 program (add program name and years)"
+    },
+    {
+      "label": "Supervision",
+      "value": "100+ BSc/MSc projects over 7 years (add breakdown here)"
+    },
+    {
+      "label": "Service & policy",
+      "value": "Danish Standard / European AI standard work (add working group)"
+    },
+    {
+      "label": "Publications",
+      "value": "See full list",
+      "url": "/publications/"
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Dr.-Ing. (PhD)",
+      "field": "Mathematics and Computer Science",
+      "institution": "TNT, Leibniz Universität Hannover (LUH)",
+      "location": "Hannover, Germany",
+      "startDate": "2012-04",
+      "endDate": "2019-11",
+      "url": "https://www.tnt.uni-hannover.de",
+      "thesis": {
+        "title": "add thesis title here",
+        "keywords": ["non-rigid structure from motion", "3D reconstruction", "human motion"],
+        "supervisors": ["add supervisors here"]
+      }
+    },
+    {
+      "degree": "MSc",
+      "field": "Computational Life Science (CLS)",
+      "institution": "Universität zu Lübeck",
+      "location": "Lübeck, Germany",
+      "endDate": "2012-03",
+      "url": "https://www.mic.uni-luebeck.de/teaching/student-projects",
+      "thesis": {
+        "title": "add thesis title here",
+        "keywords": ["add keywords here"],
+        "supervisors": ["add supervisors here"]
+      }
+    }
+  ],
+
+  "appointments": [
+    {
+      "role": "Associate Professor",
+      "organization": "IT University of Copenhagen (ITU)",
+      "unit": "Data Science Section",
+      "location": "Copenhagen, Denmark",
+      "startDate": "add year-month",
+      "endDate": null,
+      "responsibilities": [
+        "Research leadership in ML/CV for human behavior and mental health (add more details here)",
+        "Teaching and supervision in data science and ML (link to teaching page)",
+        "Service roles (committees, standards, mentoring)"
+      ],
+      "links": [
+        { "label": "ITU profile", "url": "add link here" }
+      ]
+    },
+    {
+      "role": "Previous position (e.g., Postdoc / Researcher)",
+      "organization": "add organization",
+      "unit": "add unit",
+      "location": "add location",
+      "startDate": "add year-month",
+      "endDate": "add year-month",
+      "responsibilities": ["add more details here"],
+      "links": [{ "label": "Optional link", "url": "add link here" }]
+    }
+  ],
+
+  "research": {
+    "themes": [
+      {
+        "title": "Machine Learning for Human Behavior and Mental Health",
+        "description": "Modeling human affect, behavior, and interaction from visual and multimodal data to support clinically meaningful outcomes (add more details here).",
+        "keywords": [
+          "mental health applications",
+          "affective computing",
+          "behavioral signals",
+          "multimodal fusion",
+          "robust ML",
+          "responsible AI"
+        ]
+      },
+      {
+        "title": "Vision and Motion Understanding",
+        "description": "Methods for facial expression analysis, human motion, and non-rigid structure-from-motion; 3D reconstruction for human-centered AI (add more details here).",
+        "keywords": [
+          "facial expression analysis",
+          "human pose and motion",
+          "non-rigid SfM",
+          "3D reconstruction",
+          "time-series vision"
+        ]
+      },
+      {
+        "title": "Generative AI for Human-Centered Applications",
+        "description": "Generative modeling and representation learning for data augmentation, uncertainty, and interpretability (add more details here).",
+        "keywords": ["generative AI", "diffusion models", "representation learning", "uncertainty"]
+      }
+    ],
+
+    "selectedOutputs": {
+      "note": "Keep this curated (3–6 items). Full list is on the publications page.",
+      "url": "/publications/",
+      "items": [
+        {
+          "type": "paper",
+          "title": "Add selected publication title here",
+          "venue": "Add venue (e.g., MICCAI / CVPR workshop / Journal)",
+          "year": 2025,
+          "role": "e.g., senior author / corresponding author",
+          "links": [
+            { "label": "DOI", "url": "add link here" },
+            { "label": "PDF", "url": "add link here" }
+          ],
+          "keywords": ["multimodal", "mental health", "computer vision"]
+        },
+        {
+          "type": "paper",
+          "title": "Add selected publication title here",
+          "venue": "Add venue",
+          "year": 2024,
+          "role": "add role",
+          "links": [{ "label": "arXiv", "url": "add link here" }],
+          "keywords": ["human motion", "3D", "non-rigid SfM"]
+        }
+      ]
+    }
+  },
+
+  "grantsAndProjects": {
+    "note": "Include role, funding body, dates, and (optionally) amount. Emphasize PI/Co-PI roles.",
+    "items": [
+      {
+        "type": "researchProject",
+        "title": "Add project title here",
+        "role": "Co-PI",
+        "fundingBody": "Add funding body (e.g., national / foundation / EU / industry)",
+        "amount": "Optional: add amount",
+        "startDate": "add year-month",
+        "endDate": "add year-month or null",
+        "description": "1–2 lines on goals + your contribution (add more details here).",
+        "keywords": ["mental health", "multimodal", "clinical collaboration"],
+        "links": [{ "label": "Project page", "url": "/projects/#add-anchor" }]
+      },
+      {
+        "type": "researchProject",
+        "title": "Add project title here",
+        "role": "PI / Work Package Lead / Co-PI",
+        "fundingBody": "Add funding body",
+        "amount": "Optional",
+        "startDate": "add year-month",
+        "endDate": null,
+        "description": "Add more details here.",
+        "keywords": ["generative AI", "robust ML", "human behavior"],
+        "links": [{ "label": "Optional link", "url": "add link here" }]
+      }
+    ]
+  },
+
+  "teachingAndSupervision": {
+    "url": "/teaching/",
+    "overview": "Teaching in data science and machine learning. Extensive supervision of Bachelor and Master projects (100+ over the last 7 years). Add short teaching philosophy line here (1–2 sentences).",
+
+    "courses": [
+      {
+        "name": "Add course name",
+        "level": "MSc / BSc",
+        "role": "Course responsible / Lecturer / Guest lecturer",
+        "term": "Spring / Fall",
+        "year": 2025,
+        "topics": ["machine learning", "deep learning", "responsible AI"],
+        "notes": "Add 1 line on your responsibilities (syllabus, exams, project design)."
+      }
+    ],
+
+    "supervision": {
+      "summary": "Supervised 100+ student projects (BSc/MSc) in machine learning and data science over 7 years.",
+      "counts": [
+        { "type": "MSc theses", "count": "add number" },
+        { "type": "BSc projects/theses", "count": "add number" },
+        { "type": "Project courses", "count": "add number" }
+      ],
+      "topics": [
+        "mental health ML",
+        "facial expression analysis",
+        "human motion",
+        "multimodal learning",
+        "generative AI",
+        "responsible AI"
+      ],
+      "notes": "Optionally add a short line about supervision style and student outcomes (e.g., publications, awards)."
+    }
+  },
+
+  "serviceAndLeadership": {
+    "note": "This section is high-value for Associate Professor level. Keep it structured, not a long list.",
+    "governanceAndBoards": [
+      {
+        "role": "Board Member",
+        "organization": "Lundbeck Foundation Investigator Network",
+        "startDate": "add year-month",
+        "endDate": "2026-04",
+        "description": "Board membership role and activities (add 1 line).",
+        "keywords": ["research leadership", "network governance"]
+      },
+      {
+        "role": "Former Board Member",
+        "organization": "Add organization",
+        "startDate": "add year-month",
+        "endDate": "add year-month",
+        "description": "Add 1 line on what you contributed.",
+        "keywords": ["governance", "strategy"]
+      }
+    ],
+
+    "programLeadership": [
+      {
+        "role": "Program Director",
+        "organization": "P1 program (add program name)",
+        "startDate": "add year-month",
+        "endDate": null,
+        "description": "Scope, audience, and your responsibilities (add more details here).",
+        "keywords": ["leadership", "program development", "public engagement"]
+      }
+    ],
+
+    "committees": [
+      {
+        "role": "Member",
+        "organization": "DDSA - Education & Networking Committee",
+        "startDate": "add year-month",
+        "endDate": null,
+        "description": "Add 1 line on contribution (e.g., initiatives, events, strategy).",
+        "keywords": ["national ecosystem", "education", "networking"]
+      }
+    ],
+
+    "standardsAndPolicy": [
+      {
+        "role": "Member",
+        "organization": "Danish Standard (European AI standard)",
+        "startDate": "add year-month",
+        "endDate": null,
+        "description": "Working group focus and contributions (add more details here).",
+        "keywords": ["AI standards", "policy", "responsible AI"]
+      }
+    ],
+
+    "reviewingAndEditorial": {
+      "summary": "Reviewer and program committee roles (curate: list representative venues).",
+      "items": [
+        {
+          "type": "programCommittee",
+          "venue": "Add conference name",
+          "years": ["2024", "2025"],
+          "notes": "Add more details here"
+        },
+        {
+          "type": "journalReviewer",
+          "venue": "Add journal name",
+          "years": ["2023", "2024", "2025"],
+          "notes": "Add more details here"
+        }
+      ]
+    },
+
+    "mentoringAndStudentSupport": [
+      {
+        "role": "Academic Mentor",
+        "organization": "Student counseling / students with special needs",
+        "startDate": "add year-month",
+        "endDate": null,
+        "description": "Brief, privacy-safe description of mentoring scope (add more details here).",
+        "keywords": ["mentorship", "student support", "inclusive education"]
+      }
+    ]
+  },
+
+  "outreachAndTalks": {
+    "url": "/talks/",
+    "selected": [
+      {
+        "type": "invitedTalk",
+        "title": "Add talk title here",
+        "event": "Connected Women in AI",
+        "date": "add YYYY-MM",
+        "location": "add location/online",
+        "keywords": ["women in AI", "public engagement"],
+        "links": [{ "label": "Slides", "url": "add link here" }]
+      }
+    ],
+    "otherActivities": [
+      {
+        "type": "summerSchool",
+        "role": "Organizer / Lecturer",
+        "name": "Add summer school name",
+        "years": ["2024", "2025"],
+        "notes": "Add more details here"
+      },
+      {
+        "type": "seminarSeries",
+        "role": "Organizer / Host",
+        "name": "Add seminar series name",
+        "years": ["2023", "2024", "2025"],
+        "notes": "Add more details here"
+      }
+    ]
+  },
+
+  "expertiseAndImpact": {
+    "expertRoles": [
+      {
+        "role": "Expert (Machine Learning Assessment)",
+        "context": "Court case (privacy-safe description)",
+        "date": "add YYYY",
+        "jurisdiction": "add country/court if appropriate",
+        "description": "One line on scope of assessment (no sensitive details).",
+        "keywords": ["expert witness", "ML assessment", "responsible AI"]
+      }
+    ],
+    "impactNotes": [
+      "Add 2–3 bullets on societal/clinical impact, datasets, open-source tools, collaborations, or deployments."
+    ]
+  },
+
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "deep learning",
+        "generative models",
+        "multimodal learning",
+        "robustness",
+        "evaluation",
+        "responsible AI"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "keywords": [
+        "facial expression analysis",
+        "human motion",
+        "pose estimation",
+        "3D reconstruction",
+        "non-rigid structure from motion"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python", "PyTorch", "NumPy", "scikit-learn", "add more here"]
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "Add award / honor",
+      "year": 2025,
+      "by": "Add awarding body",
+      "notes": "Add more details here"
+    }
+  ],
+
+  "memberships": [
+    {
+      "organization": "Add membership (e.g., professional society)",
+      "role": "Member",
+      "startDate": "add year",
+      "endDate": null,
+      "notes": "Add more details here"
+    }
+  ],
+
+  "languages": [
+    { "language": "German", "fluency": "Native" },
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "Danish", "fluency": "Beginner" }
+  ],
+
+  "linksAndCuration": {
+    "cvHubPrinciple": "CV page contains curated highlights and links; details live on dedicated pages.",
+    "sectionsToLinkFromCV": [
+      { "label": "Publications (full list)", "url": "/publications/" },
+      { "label": "Teaching & supervision (details)", "url": "/teaching/" },
+      { "label": "Talks & outreach", "url": "/talks/" },
+      { "label": "Projects", "url": "/projects/" }
+    ],
+    "notes": [
+      "Keep 'Selected publications' to 3–6 items max and rotate yearly.",
+      "Prefer structured service entries over long prose lists.",
+      "Use dates everywhere (year or year-month) for credibility."
+    ]
+  }
+}

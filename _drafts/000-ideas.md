@@ -22,5 +22,5 @@ future content
 - tools: zotero, overleaf, iguanatex, tikz
 - book summaries/reviews
 - nerdy places in CPH :D (maps?)
-- random facts: chainsaws were originally invented for use during child birth, Al Capone made expiration dates a thing
+- random facts: chainsaws were originally invented for use during child birth, Al Capone made expiration dates a thing, ...
 - 

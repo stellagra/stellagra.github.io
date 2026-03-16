@@ -87,7 +87,15 @@ Note: This collection is work in progress. As of now:
 
 ### Finalized projects
 
-{: reversed="reversed" start="73"}
+{: reversed="reversed" start="81"}
+1. 2026, MSc, *Gender-Informed Transformers for Depression Detection from Facial Action Units and Landmarks*, 2 students
+1. 2026, RP, *Inspecting the latent space geometry of alignment methods*
+1. 2026, RP, *Corner Kick Prediction: A Dataset Survey and Baseline Experiments with Public Data*
+1. 2026, RP, *Finding Anemo: Comparing Classifier Performance on Image Embeddings of Marine Species in Danish waters*
+1. 2026, RP, *Explainable Artificial Intelligence in Computer Vision - Evaluating the Transferability of LeGrad*
+1.  2026, RP, *Editing Facial Action Units through Diffusion Model Latent Spaces*, 2 students
+1.  2025, MSc, *Semantic directions in diffusion models*
+1.  2025, MSc, *Feature Extraction on Blank Paper - A Comparative Study*
 1.  2025, MSc, *Infant Facial Expression Recognition: Effects of Training Data and Visual Perturbations*, 2 students
 2.  2025, MSc, *From Reproduction to Evaluation: A Language-Only Approach to Depression Detection Using Supervised Machine Learning*
 3.  2025, MSc, *Enhancing Language-Guided Visual Attention with Probabilistic Encoders*, 2 students, with external collaborators
