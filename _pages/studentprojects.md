@@ -37,12 +37,13 @@ However it can also be a way to hel with future employment at this company.
 Consider the following an incomplete list of my research interests. 
 Some interesting keywords for your project include but are not limited to:
 
-- Machine Learning applications focussing on mental health, mental disorders, and health applications
+- Machine Learning applications focussing on mental health, mental disorders, and health applications, in particular facial expressions and body motion
 - Generative AI: Diffusion Models, GANs, etc.
 - Deep Fake Detection: focussing on visual domain
 - Human Motion Analysis, e.g. by Vision Transformers
 - 3D reconstruction
 - Image Generation and Classification
+- Underwater Vision Applications
 
 More details:
 - Estimation of semantically meaningful latent directions. 
@@ -70,10 +71,10 @@ The different abbreviations are referring to the following types
 
 
 ## Currently Ongoing student projects
-Currently, I am supervising several projects focussing on applications of machine learning in the mental health domain, and other computer vision topics.
-Note that the project titles are preliminary, and might change in the final submission. 
-- Semantic Directions in Diffusion Models
-- Fingerprinting scans
+Currently, I am focussing on applications of machine learning in the mental health domain. Ongoing projects deal with:
+- challenges of underwater scene synthesis (3d reconstruction, Gaussian Splatting)
+- explainability and interpretable ML
+- latent space 
 
 ## Finalized student projects at ITU
 This is a list of projects I supervised or co-supervised since I started working at ITU 2019. 
@@ -87,7 +88,13 @@ Note: This collection is work in progress. As of now:
 
 ### Finalized projects
 
-{: reversed="reversed" start="81"}
+{: reversed="reversed" start="87"}
+1. 2026, BSc, *Markerless Pose Estimation for Physical Rehabilitation: A Comparative Evaluation of MediaPipe, MMPose, and OpenPose*, 2 students
+1. 2026, RP, *Investigating Vulnerabilities in Deepfake Detectors*, 2 students
+1. 2026, RP, *Towards Sparse-View 3D Gaussian Splatting under Estimated Geometry*
+1. 2026, RP, *Evaluating 3D Gaussian Splatting for Underwater 3D Reconstruction in Degraded Visual Conditions*
+1. 2026, BSc, *Speaking or Listening? The Effect of Conversational Role in Visual Depression Classification Using DAIC-WOZ*, Cornelius Tobias Møller Nielsen, Pietro Rebecchi, Szonja Uley 
+1. 2026, RP, *Prediction of next Action after Corner Kick in Soccer*
 1. 2026, MSc, *Gender-Informed Transformers for Depression Detection from Facial Action Units and Landmarks*, 2 students
 1. 2026, RP, *Inspecting the latent space geometry of alignment methods*
 1. 2026, RP, *Corner Kick Prediction: A Dataset Survey and Baseline Experiments with Public Data*
