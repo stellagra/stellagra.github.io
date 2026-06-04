@@ -90,8 +90,8 @@ Note: This collection is work in progress. As of now:
 
 {: reversed="reversed" start="87"}
 1. 2026, BSc, *Markerless Pose Estimation for Physical Rehabilitation: A Comparative Evaluation of MediaPipe, MMPose, and OpenPose*, 2 students
-1. 2026, RP, *Investigating Vulnerabilities in Deepfake Detectors*, 2 students
-1. 2026, RP, *Towards Sparse-View 3D Gaussian Splatting under Estimated Geometry*
+1. 2026, RP, *Investigating Vulnerabilities in Deepfake Detectors*, Alexander Rode, Jakob Arnfred Nielsen
+1. 2026, RP, *Towards Sparse-View 3D Gaussian Splatting under Estimated Geometry*, Katalin Literati-Dobos
 1. 2026, RP, *Evaluating 3D Gaussian Splatting for Underwater 3D Reconstruction in Degraded Visual Conditions*
 1. 2026, BSc, *Speaking or Listening? The Effect of Conversational Role in Visual Depression Classification Using DAIC-WOZ*, Cornelius Tobias Møller Nielsen, Pietro Rebecchi, Szonja Uley 
 1. 2026, RP, *Prediction of next Action after Corner Kick in Soccer*
