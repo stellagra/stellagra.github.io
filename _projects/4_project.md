@@ -10,7 +10,7 @@ related_publications: false
 
 
 On this page you will eventually find a description of image registration, and:
-- how if relates to optical flow, 
+- how it relates to optical flow, 
 - what this has to do with my Master thesis, and 
 - how it guided me towards my first publication during my PhD. 
 
