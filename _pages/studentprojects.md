@@ -79,21 +79,21 @@ Currently, I am focussing on applications of machine learning in the mental heal
 ## Finalized student projects at ITU
 This is a list of projects I supervised or co-supervised since I started working at ITU 2019. 
 Note: This collection is work in progress. As of now: 
-- Year, kind and title are displayed, names in progress. (Why? I did not ask most of my former students yet.)
+- Year, kind and title are displayed, names in progress. (Why? I did not ask everyone for consent.)
 - Names will only appear if explicitly agreed. Message me if you would like your name added or removed from this page. 
 - If not stated otherwise, the project has been completed by one student.
 - Co-supervisions with colleagues happen(ed), and is not always mentioned (yet). 
 - Companies involved in the projects are intentionally not mentioned (yet).
-
+- The order of the names is alphabetical and has no furhter meaning
 
 ### Finalized projects
 
 {: reversed="reversed" start="87"}
-1. 2026, BSc, *Markerless Pose Estimation for Physical Rehabilitation: A Comparative Evaluation of MediaPipe, MMPose, and OpenPose*, 2 students
-1. 2026, RP, *Investigating Vulnerabilities in Deepfake Detectors*, Alexander Rode, Jakob Arnfred Nielsen
+1. 2026, BSc, *Markerless Pose Estimation for Physical Rehabilitation: A Comparative Evaluation of MediaPipe, MMPose, and OpenPose*, Lisa Claudi Hauge and Olivia Brophy
+1. 2026, RP, *Investigating Vulnerabilities in Deepfake Detectors*, Alexander Rode and Jakob Arnfred Nielsen
 1. 2026, RP, *Towards Sparse-View 3D Gaussian Splatting under Estimated Geometry*, Katalin Literati-Dobos
 1. 2026, RP, *Evaluating 3D Gaussian Splatting for Underwater 3D Reconstruction in Degraded Visual Conditions*, Markus Kildebæk Raun Johansen, supervised together with [Olaya Álvarez-Tuñón](https://github.com/olayasturias)
-1. 2026, BSc, *Speaking or Listening? The Effect of Conversational Role in Visual Depression Classification Using DAIC-WOZ*, Cornelius Tobias Møller Nielsen, Pietro Rebecchi, Szonja Uley 
+1. 2026, BSc, *Speaking or Listening? The Effect of Conversational Role in Visual Depression Classification Using DAIC-WOZ*, Cornelius Tobias Møller Nielsen, Pietro Rebecchi and Szonja Uley 
 1. 2026, RP, *Prediction of next Action after Corner Kick in Soccer*
 1. 2026, MSc, *Gender-Informed Transformers for Depression Detection from Facial Action Units and Landmarks*, 2 students
 1. 2026, RP, *Inspecting the latent space geometry of alignment methods*
