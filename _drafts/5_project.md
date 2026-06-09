@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Detecting heart rate in mice
-description: Employing machine learning to enhance translational sleep research
+title: Underwater Vision Projects
+description: Underwater Vision
 img: 
 importance: 5
 category: research
@@ -9,7 +9,5 @@ related_publications: false
 ---
 
 
-This project is funded by the Lundbeck Foundation. 
-"Detecting heart rate in mice: a machine learning tool to enhance translational sleep research"
-
+...
 

@@ -7,6 +7,7 @@ importance: 1
 category: research
 related_publications: false
 ---
+<!-- kristensen_subtle_2026, trinhammer_dont_2026, trinhammer_evaluating_2026-->
 
 # Motivation
 
@@ -43,9 +44,11 @@ At the yearly D3A conference, I am co-organising sessions related to mental heal
 - 2024 [Overcoming the Valley of Death in AI-assisted Preventive Mental-Health Technology](https://d3aconference.dk/overcoming-the-valley-of-death-in-ai-assisted-preventive-mental-health-technology/)
 
 
+<!-- 
 # References
 <div class="publications">
   {% bibliography -f papers -q @*[key=kristensen_subtle_2026]* %}
   {% bibliography -f papers -q @*[key=trinhammer_dont_2026]* %}
   {% bibliography -f papers -q @*[key=trinhammer_evaluating_2026]* %}
 </div>
+-->

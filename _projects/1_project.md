@@ -5,9 +5,10 @@ description: PhD project of Stella and ongoing research.
 img: assets/img/phd/face_model_slider.png
 importance: 2
 category: research
-related_publications: false
+related_publications: false 
 ---
 
+<!--grashof_multilinear_2021, grashof_expressive_2019, brandt_uncalibrated_2019, awiszus_unsupervised_2018, grashof_projective_2017, grashof_apathy_2017,grashof_estimation_2015, grashof_performance_2013 -->
 
 In 2012 I started my PhD project initially on Talking Heads. The idea was to generate a 3D facial animation of a person with accompanying speech given text. 
 Eventually, I reached an intermediate step with a textured coarse 3D model, as seen below on the left. 
@@ -62,7 +63,6 @@ Hence, an approach was formulated to estimate the expression intensity for each 
 After all the preprocessing and alignment, a balanced dataset with the same number of 3D points and number of frames has been obtained. This data can now be sorted into a matrix or data tensor and a factorisation method can be employed. 
 In this work, the Higher-Order Singular Value Decomposition (HO-SVD) was employed to factorize the data tensor into different subspaces. Depending on the chosen order and dimension of the data tensor, new insights were gained. 
 One of the main contributions was what we referred to as the *expression subspace*, which revealed a structure in a lower dimensional space. 
-
 
 
 
