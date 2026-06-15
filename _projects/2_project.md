@@ -27,8 +27,8 @@ In this section I want to highlight funding and different ongoing projects and e
 
 ## Lundbeck Foundation 
 
-In 2022, I became member of the [Lundbeck Foundation Investigator Network (LFIN)](https://lundbeckfonden.com/apply-grants/the-lundbeck-foundation-investigator-network), where I met [Louise Birkedal Glenthøj](https://research.regionh.dk/da/persons/louise-birkedal-glenth%C3%B8j). As a result in 2023 we were honoured to receive a seed funding grant from the Lundbeck Foundation supporting this line of research for a one year.  
-In our joint work we investigated differences in facial expressions between people diagnoes with UHR (Ultra High-Risk of psychosis) and healthy controls. In 2026, we finally published our related paper, thanks to leading efforts of [Tina Dam Kristensen](https://research.regionh.dk/da/persons/tina-dam-kristensen/) (see below).
+In 2022, I became member of the [Lundbeck Foundation Investigator Network (LFIN)](https://lundbeckfonden.com/apply-grants/the-lundbeck-foundation-investigator-network), where I met [Louise Birkedal Glenthøj](https://research.regionh.dk/da/persons/louise-birkedal-glenth%C3%B8j). As a result in 2023 we were honoured to receive a seed funding grant from the Lundbeck Foundation supporting this line of research for one year.  
+In our joint work we investigated differences in facial expressions between people diagnosed with being UHR (Ultra High-Risk of psychosis) and healthy controls. In 2026, we finally published our related paper, thanks to leading efforts of [Tina Dam Kristensen](https://research.regionh.dk/da/persons/tina-dam-kristensen/) (see below).
 This was right in time before my 4-year membership, and my role as a board member ended, which makes me a proud alumni of the first cohort. 
 
 ## Pioneer Centre for AI (P1)
@@ -39,7 +39,7 @@ Our main inceptive is to connect researches cross disciplines to tackle challeng
 So far we have organized a lecture series, and networking meetings. 
 
 ## D3A
-At the yearly D3A conference, I am co-organising sessions related to mental health topics:
+At the yearly D3A conference, I am co-organizing sessions related to mental health topics:
 - 2025 [Bridging minds and machines: A collaborative workshop for psychologists and data scientists](https://d3aconference.dk/bridging-minds-and-machines-a-collaborative-workshop-for-psychologists-and-data-scientists-overall-topic-psychology-and-data-science/)
 - 2024 [Overcoming the Valley of Death in AI-assisted Preventive Mental-Health Technology](https://d3aconference.dk/overcoming-the-valley-of-death-in-ai-assisted-preventive-mental-health-technology/)
 
