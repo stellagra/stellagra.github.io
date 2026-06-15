@@ -23,7 +23,7 @@ In the future we hope to help with the identification of subgroups within groups
 # Output and Current Work
 
 I am working hard on contributing to advancements in the field of mental health by conducting research in the area of Machine Learning in mental health applications. 
-In this section I want to highlight funding and different ongoing 
+In this section I want to highlight funding and different ongoing projects and efforts, e.g. this growing collection of [datasets with mental health labels](https://github.com/stellagra/MentalHealthDatasets).
 
 ## Lundbeck Foundation 
 
@@ -36,7 +36,7 @@ At the end of 2023, I received funding from the [Pioneer Centre for Artificial I
 
 Since August 2025, I am director of the program [Bridging Minds and Machines: AI, HCI & Psychology](https://www.aicentre.dk/p1-programs/bridging-minds-and-machines-ai-hci-psychology). [Louise Birkedal Glenthøj](https://research.regionh.dk/da/persons/louise-birkedal-glenth%C3%B8j), [Niels van Berkel](https://vbn.aau.dk/da/persons/nielsvanberkel/), and I each represent one domain of the multi-disciplinary collaboration. 
 Our main inceptive is to connect researches cross disciplines to tackle challenges with our joint expertise. 
-So far we have orgnaised a lecture series, and networking meetings. 
+So far we have organized a lecture series, and networking meetings. 
 
 ## D3A
 At the yearly D3A conference, I am co-organising sessions related to mental health topics:
@@ -44,11 +44,10 @@ At the yearly D3A conference, I am co-organising sessions related to mental heal
 - 2024 [Overcoming the Valley of Death in AI-assisted Preventive Mental-Health Technology](https://d3aconference.dk/overcoming-the-valley-of-death-in-ai-assisted-preventive-mental-health-technology/)
 
 
-<!-- 
+
 # References
 <div class="publications">
   {% bibliography -f papers -q @*[key=kristensen_subtle_2026]* %}
   {% bibliography -f papers -q @*[key=trinhammer_dont_2026]* %}
   {% bibliography -f papers -q @*[key=trinhammer_evaluating_2026]* %}
 </div>
--->
