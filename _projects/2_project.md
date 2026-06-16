@@ -40,6 +40,7 @@ So far we have organized a lecture series, and networking meetings.
 
 ## D3A
 At the yearly D3A conference, I am co-organizing sessions related to mental health topics:
+- 2026 t.b.a. 
 - 2025 [Bridging minds and machines: A collaborative workshop for psychologists and data scientists](https://d3aconference.dk/bridging-minds-and-machines-a-collaborative-workshop-for-psychologists-and-data-scientists-overall-topic-psychology-and-data-science/)
 - 2024 [Overcoming the Valley of Death in AI-assisted Preventive Mental-Health Technology](https://d3aconference.dk/overcoming-the-valley-of-death-in-ai-assisted-preventive-mental-health-technology/)
 
