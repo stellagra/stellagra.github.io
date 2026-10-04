@@ -4,7 +4,7 @@ title: Student Projects
 permalink: /studentprojects/
 description: A growing collection of student projects - completed, ongoing, and suggestions.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [project, student]
 horizontal: false
 toc: true
