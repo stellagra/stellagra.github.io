@@ -10,7 +10,7 @@ horizontal: false
 toc: true
 ---
 
-If you are interested in pursuing a PhD under my supervision, please check my research interests under Projects, and publications, before contacting me. 
+If you are interested in pursuing a PhD under my supervision, please check my research interests under [projects](https://stellagrasshof.com/projects/), and [publications](https://stellagrasshof.com/publications/), before contacting me. 
 For Master, Bachelor and Research Projects, please see below. 
 
 <!-- I had the pleasure of supervising over 50 student projects of various kinds as main, or co-supervisor.  -->
