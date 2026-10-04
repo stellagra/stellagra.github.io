@@ -24,9 +24,8 @@ If you are considering me as a supervisor, you can find a list of project sugges
 
 # How to do a Great Project - General Advise
 With best intentions I am sharing some general advise on written work. 
-I created a github repository, currently hosted on [itu github](https://github.itu.dk/stgr/howto_student_project). 
-Please be mindful that you might not be able to access it if you are not from ITU. 
-(I might provide the content elsewhere upon demand.)
+I created a helpful [github repository](https://github.com/stellagra/howto-student-project). 
+Note: It is in the progress of being moved from the [itu github](https://github.itu.dk/stgr/howto_student_project) to separate what should be available to everyone vs. what is only available ITU-internally.
 
 In general company can be involved in your project it this is of mutual benefit. 
 If you are considering this, be mindful that this might come with strings attached for you, specifically an NDA. 
