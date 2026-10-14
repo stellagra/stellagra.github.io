@@ -29,12 +29,12 @@
   
   
     
-      Image Registration | Stella Grasshof
+      Underwater Computer Vision and 3D Mapping | Stella Grasshof
     
   
 </title>
 <meta name="author" content="Stella Grasshof">
-<meta name="description" content="Stella's Master thesis topic.">
+<meta name="description" content="Vision for underwater inspection, from image segmentation to 3D mapping with video and sonar.">
 
   <meta name="keywords" content="machine learning, academic life, university, mental health, depression, bipolar disorder">
 
@@ -67,7 +67,7 @@
 <!-- Styles -->
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="http://localhost:4000/projects/4_project/">
+<link rel="canonical" href="http://localhost:4000/projects/underwater-3d-mapping/">
 
 <!-- Dark Mode -->
 
@@ -180,23 +180,14 @@
             
           
             
+          
+            
               
                 <li class="nav-item active">
                   
                   <a class="nav-link" href="/projects/">Projects
                     
                       <span class="sr-only">(current)</span>
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-              
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/funding/">Funding
                     
                   </a>
                 </li>
@@ -287,37 +278,123 @@
       
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">Image Registration</h1>
-    <p class="post-description">Stella's Master thesis topic.</p>
+    <h1 class="post-title">Underwater Computer Vision and 3D Mapping</h1>
+    <p class="post-description">Vision for underwater inspection, from image segmentation to 3D mapping with video and sonar.</p>
   </header>
 
   <article>
-    <p>On this page you will eventually find a description of image registration, and:</p>
-<ul>
-  <li>how it relates to optical flow,</li>
-  <li>what this has to do with my Master thesis, and</li>
-  <li>how it guided me towards my first publication during my PhD.</li>
-</ul>
+    <h1 id="motivation">Motivation</h1>
 
-<p>As a teaser, here is an illustration of image registration between two vector-valued images.</p>
+<p>Computer Vision tasks above water provide challenges. 
+Underwater, the challenges intensify. While cameras provide rich visual detail, they struggle in murky water, or in poor lighting.<br>
+Sonar, on the other hand, works in these conditions, but provides far less visual detail. 
+Additionally, labelled real-world underwater data is scarce and expensive to collect, which limits how well machine learning models can be trained for these tasks.</p>
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-    <img src="/assets/img/vector_valued.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Illustration of Image Registration Problem on Vector Fields" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
+<p>Our research addresses these challenges via image segmentation and visual odometry towards reliable 3D mapping of underwater scenes.</p>
 
-  
-</figure>
+<h1 id="3d-mapping-of-underwater-scenes-using-video-and-sonar-20272029">3D Mapping of Underwater Scenes using Video and Sonar (2027–2029)</h1>
+
+<p>New project! More details tba</p>
+
+<p>In 2026, we received funding from the <a href="https://orientsfond.dk/" rel="external nofollow noopener" target="_blank">Orient Fund</a> and the <a href="https://dendanskemaritimefond.dk/it-universitetet-3d-mapping-of-underwater-scenes-using-video-and-sonar/" rel="external nofollow noopener" target="_blank">Danish Maritime Fund</a> for the project <em>3D Mapping of Underwater Scenes using Video and Sonar</em>.</p>
+
+<p>We will investigate when and how combining cameras and 3D sonar improves underwater 3D mapping compared to either technology alone.</p>
+
+<p>The project will make its data, evaluation methods, and reference implementations publicly available. 
+Potential applications include the inspection of ship hulls, offshore energy installations, harbours, bridges, and pipelines.</p>
+
+<p><strong>Open position:</strong> A research assistant position for this project will be announced.</p>
+
+<h2 id="preliminary-related-work">Preliminary Related Work</h2>
+
+<p>Ongoing work with Olaya Álvarez-Tuñón: 3D Gaussian Splatting for underwater scenes.
+Code and evaluation scripts are <a href="https://github.com/olayasturias/uw3dgs" rel="external nofollow noopener" target="_blank">publicly available</a>.</p>
+
+<p>In ongoing student projects, we explore underwater scene reconstruction, e.g. by evaluating 3D Gaussian Splatting for underwater 3D reconstruction in degraded visual conditions.</p>
+
+<h1 id="image-segmentation-for-underwater-inspection">Image Segmentation for Underwater Inspection</h1>
+
+<p>Together with <a href="http://www.itu.dk/people/wasowski/" rel="external nofollow noopener" target="_blank">Andrzej Wąsowski</a> and <a href="https://www.linkedin.com/in/yurybrodskiy/" rel="external nofollow noopener" target="_blank">Yury Brodskiy</a>, I co-supervised <a href="https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2025/March/Luiza-Ribeiro-Marnet" rel="external nofollow noopener" target="_blank">Luiza Ribeiro Marnet</a>, who defended her PhD thesis <em>Vision-based classification for underwater safety critical applications</em> in March 2025. 
+Her work showed how active learning can drastically reduce the amount of labelled data needed for pipeline segmentation in underwater inspection, and how models trained on simulated images can be adapted to real underwater footage. 
+As part of this work, the <a href="https://github.com/remaro-network/MarinaPipe-dataset" rel="external nofollow noopener" target="_blank">MarinaPipe dataset</a> was published.</p>
 
 <h1 id="references">References</h1>
 <div class="publications">
-  <h2 class="bibliography">2013</h2>
+  <h2 class="bibliography">2026</h2>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="alvarez-tunon_gaussian_2026" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Gaussian Splatting Underwater: A Controlled Cross-Regime Study</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Olaya
+            Álvarez-Tuñón
+          , and <em>Stella
+            Graßhof</em>
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In OCEANS 2026</em> ,  2026
+    </div>
+    <div class="periodical">
+      Accepted for publication
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+        <a href="http://arxiv.org/abs/2608.25483" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://github.com/olayasturias/uw3dgs" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+      
+      
+      
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
+  
+  <h2 class="bibliography">2024</h2>
 <ol class="bibliography"><li>
 <div class="row">
   
@@ -335,7 +412,7 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     
-    <img src="/assets/img/publication_preview/2013_psivt.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="2013_psivt.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/publication_preview/2024_marnet_oceans.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="2024_marnet_oceans.jpg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
@@ -347,18 +424,33 @@
   
 
   <!-- Entry bib key -->
-  <div id="grashof_performance_2013" class="col-sm-8">
+  <div id="marnet_bridging_2024" class="col-sm-8">
     <!-- Title -->
-    <div class="title">Performance of Image Registration and Its Extensions for Interpolation of Facial Motion</div>
+    <div class="title">Bridging the Sim-to-Real GAP for Underwater Image Segmentation</div>
     <!-- Author -->
     <div class="author">
       
 
       
-      <em>Stella
-            Graßhof</em>, and J.
-            Ostermann
-          
+      Luiza Ribeiro
+            Marnet
+          , <em>Stella
+            Graßhof</em>, Yuri
+            Brodskiy
+          , and
+        <span class="more-authors" title="click to view 1 more author" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '1 more author' ? 'Andrzej Wąsowski' : '1 more author';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">1 more author</span>
+      
     </div>
 
     <!-- Journal/Book title and date -->
@@ -370,7 +462,7 @@
     
     
     <div class="periodical">
-      <em>In Pacific-Rim Symposium on Image and Video Technology (PSIVT) Workshops</em> ,  2013
+      <em>In Oceans</em> ,  Apr 2024
     </div>
     <div class="periodical">
       
@@ -386,7 +478,126 @@
       
       
         
-          <a href="/assets/pdf/2013_grasshof.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="/assets/pdf/2024_marnet_oceans.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+        <a href="https://github.com/remaro-network/MarinaPipe-dataset" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+      
+    </div>
+    
+      
+      
+      
+      
+    
+
+    
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>Labeling images for every new task or data pattern a model needs to learn is a significant time bottleneck in real-world applications. Moreover, acquiring the necessary data for training the models can be challenging. Ideally, one would train the models with simulated images and adapt them for the desired real tasks using the least possible amount of data. Active learning can be used to solve this problem with minimal effort. In this work, we train SegFormer for pipeline segmentation with synthetic images from an underwater simulated environment and fine-tune the model with real underwater pipeline images recorded in a marina. 
+The evaluation shows that selecting real data with active learning for fine-tuning the model gives better results than randomly selecting the images. As part of the work, we release the dataset recorded in the marina, MarinaPipe, which will be publicly available.</p>
+      </div>
+    
+
+    
+
+    
+  </div>
+</div>
+</li></ol>
+  <h2 class="bibliography">2024</h2>
+<ol class="bibliography"><li>
+<div class="row">
+  
+    <div class="col-sm-2 preview">
+      
+        
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/publication_preview/2024_marnet_robovis.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="2024_marnet_robovis.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="marnet_uncertainty_2024" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Uncertainty Driven Active Learning for Image Segmentation in Underwater Inspection</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Luiza
+            Ribeiro Marnet
+          , Yury
+            Brodskiy
+          , Stella
+            Grasshof
+          , and
+        <span class="more-authors" title="click to view 1 more author" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '1 more author' ? 'Andrzej Wąsowski' : '1 more author';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">1 more author</span>
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>In Robotics, Computer Vision and Intelligent Systems</em> ,  Feb 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      
+      
+      
+      
+      
+        
+          <a href="/assets/pdf/2024_marnet_robovis.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
         
       
       
@@ -407,9 +618,7 @@
     
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>We compare the performance of an intensity based nonparametric image registration algorithm and extensions applied to frame interpolation of mouth images. The mouth exhibits large deformations due to different shapes, additionally some facial features occlude others, e.g. the lips cover the teeth. The closures and disclosures represent a challenging problem, which cannot be solved by the traditional image registration algorithms. 
-The tested extensions include local regularizer weight adaptation, incorporation of landmarks, self-occlusion handling and penalization of folds, which have all been examined with different weight parameters. 
-Since the performance of these algorithms and extensions turns out to be superior in case of mouth closures, we provide an algorithm for the automatic selection of deformable template and static reference image for the registration procedure. Subjective tests show that the quality of results for interpolation of mouth images is enhanced by this proposal.</p>
+        <p>Active learning aims to select the minimum amount of data to train a model that performs similarly to a model trained with the entire dataset. We study the potential of active learning for image segmentation in underwater infrastructure inspection tasks, where large amounts of data are typically collected. The pipeline inspection images are usually semantically repetitive but with great variations in quality. We use mutual information as the acquisition function, calculated using Monte Carlo dropout. HyperSeg is trained using active learning with an underwater pipeline inspection dataset of over 50,000 images. To allow reproducibility and assess the framework’s effectiveness, the CamVid dataset was also utilized. For the pipeline dataset, HyperSeg with active learning achieved 67.5% meanIoU using 12.5% of the data, and 61.4% with the same amount of randomly selected images. This shows that using active learning for segmentation models in underwater inspection tasks can lower the cost significantly.</p>
       </div>
     
 

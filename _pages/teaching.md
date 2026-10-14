@@ -8,17 +8,22 @@ nav_order: 5
 ---
 
 
+
 ## IT University of Copenhagen
-- *Applied Statistics*,
-  for Data Science BSc 2nd semester, since 2024
-- *Advanced Machine Learning*, 
-  Computer Science MSc, since 2019
+- since 2026, *Machine Learning for Computer Vision*, 
+  Data Science MSc
+- 2024-2025, *Advanced Machine Learning for Computer Vision*, 
+  Computer Science MSc
+- since 2024, *Applied Statistics*,
+  for Data Science BSc 2nd semester, every Spring semester
+- 2019-2023, *Advanced Machine Learning*, 
+  Computer Science MSc, every autumn
  
 
 ## Leibniz University of Hannover
 - *Tracking with Matlab*,
 2nd semester students 
-- During my PhD I had the pleasure of being teaching assistant for the following courses: 
+- teaching assistant for the following courses: 
     - *Statistical Methods for Information Processing*
     - *Information Theory*
 

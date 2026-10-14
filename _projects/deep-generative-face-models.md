@@ -3,7 +3,7 @@ layout: page
 title: Deep Generative Models for Faces and Expressions
 description: PhD project of René and ongoing research.
 img: assets/img/deep_face4.png
-importance: 3
+importance: 4
 category: research
 related_publications: false
 ---
@@ -12,7 +12,7 @@ This page shall showcase the remarkable work of René Haas before and during his
 
 ## Generative Adversarial Networks
 
-While [my own PhD project](https://stellagrasshof.com/projects/1_project/) was strictly based on non-neural-network methods, René expanded on my work and successfully combined old and new machine learning concepts.
+While [my own PhD project](https://stellagrasshof.com/projects/personalized-3d-face-models/) was strictly based on non-neural-network methods, René expanded on my work and successfully combined old and new machine learning concepts.
 Specifically, a factorization approach was employed in the latent space of StyleGAN. 
 It turned out that using this set-up the rotation and expression of faces can be changed, as illustrated in the findings published 2021:
 

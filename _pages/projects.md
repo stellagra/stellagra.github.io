@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
-This page provides an incomplete list of past and ongoing projects.
+This page provides an incomplete list of past and ongoing projects. An overview of the funding supporting this work can be found [here](/funding/).
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

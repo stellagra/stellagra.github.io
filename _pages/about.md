@@ -36,5 +36,5 @@ Currently, I am happily co-supervising the following two bright PhD students:
 The following PhD students successfully defended under my co-supervision:
 - March 2025 [Magnus Ibh](https://pure.itu.dk/en/persons/magnus-ibh) with [Dan Witzner Hansen](https://pure.itu.dk/en/persons/dan-witzner-hansen) and [Pascal Madeleine](https://vbn.aau.dk/da/persons/102245)
 - March 2025 [Luiza Ribeiro Marnet](https://www.linkedin.com/in/luiza-ribeiro-marnet-378259116) with [Andrzej Wąsowski](http://www.itu.dk/people/wasowski/) and [Yury Brodskiy](https://www.linkedin.com/in/yurybrodskiy/)
-- November 2023 [René Haas](https://www.linkedin.com/in/haasrene/?originalSubdomain=dk) with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt). (More details about his work can be found [here](http://stellagrasshof.com/projects/3_project/)).
+- November 2023 [René Haas](https://www.linkedin.com/in/haasrene/?originalSubdomain=dk) with [Sami S. Brandt](https://pure.itu.dk/da/persons/sami-brandt). (More details about his work can be found [here](http://stellagrasshof.com/projects/deep-generative-face-models/)).
 

@@ -3,13 +3,10 @@ layout: page
 title: Funding
 permalink: /funding/
 description: Grants and funding supporting my research.
-nav: true
-nav_order: 2
+nav: false
 ---
 
 List of received grants and research funding.
-
-Note: editing in progress
 
 - 2026, PI, *3D Mapping of Underwater Scenes using Video and Sonar*, [Orient Fund (OF)](https://orientsfond.dk/) & [Danish Maritime Fund (DMF)](https://dendanskemaritimefond.dk/), 1,600,000 DKK
 - 2026, Official partner, EU project [*QuantumTox*](https://cordis.europa.eu/project/id/101130724), funding for 1 research assistant (11 months), [project webpage](https://quantum-tox.eu/)

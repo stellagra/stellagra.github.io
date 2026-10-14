@@ -3,7 +3,7 @@ layout: page
 title: Image Registration
 description: Stella's Master thesis topic.
 img: 
-importance: 4
+importance: 5
 category: research
 related_publications: false
 ---
