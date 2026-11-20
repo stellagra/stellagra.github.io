@@ -3,7 +3,7 @@ layout: page
 title: Deep Generative Models for Faces and Expressions
 description: PhD project of René and ongoing research.
 img: assets/img/deep_face4.png
-importance: 4
+importance: 2
 category: research
 related_publications: false
 ---

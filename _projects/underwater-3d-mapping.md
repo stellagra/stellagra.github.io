@@ -2,16 +2,15 @@
 layout: page
 title: Underwater Computer Vision and 3D Mapping
 description: Vision for underwater inspection, from image segmentation to 3D mapping with video and sonar.
-img: assets/img/publication_preview/2024_marnet_oceans.jpg
-importance: 3
+img: assets/img/ITU_and_robot_crop.png
+importance: 4
 category: research
 related_publications: false
 ---
 
 # Motivation
 
-Computer Vision tasks above water provide challenges. 
-Underwater, the challenges intensify. While cameras provide rich visual detail, they struggle in murky water, or in poor lighting.  
+While cameras provide rich visual detail, they struggle in murky water, or in poor lighting.  
 Sonar, on the other hand, works in these conditions, but provides far less visual detail. 
 Additionally, labelled real-world underwater data is scarce and expensive to collect, which limits how well machine learning models can be trained for these tasks.
 
@@ -20,7 +19,6 @@ Our research addresses these challenges via image segmentation and visual odomet
 
 # 3D Mapping of Underwater Scenes using Video and Sonar (2027–2029)
 
-New project! More details tba
 
 In 2026, we received funding from the [Orient Fund](https://orientsfond.dk/) and the [Danish Maritime Fund](https://dendanskemaritimefond.dk/it-universitetet-3d-mapping-of-underwater-scenes-using-video-and-sonar/) for the project *3D Mapping of Underwater Scenes using Video and Sonar*.
 

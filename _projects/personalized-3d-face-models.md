@@ -3,7 +3,7 @@ layout: page
 title: Expressive Personalized 3D Face Models from 3D Face Scans
 description: PhD project of Stella and ongoing research.
 img: assets/img/phd/face_model_slider.png
-importance: 2
+importance: 5
 category: research
 related_publications: false 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Automatic Analysis of Mental Health by Machine Learning
-description: PhD project of Martin, and ongoing research.
+description: What we can learn from videos of faces and body motion.
 img: assets/img/women_fantasy_robot.png
 importance: 1
 category: research
@@ -9,12 +9,20 @@ related_publications: false
 ---
 <!-- kristensen_subtle_2026, trinhammer_dont_2026, trinhammer_evaluating_2026-->
 
-# Motivation
+# Research Vision
 
-This project focuses on improving the understanding of a variety of diagnosis, such as bipolar disorder, depression, autism, and more, which often remain undiagnosed or misdiagnosed for years, negatively affecting individuals and communities. 
+Today, most mental health diagnoses still rely on self-reported assessments such as surveys. While effective, this tool makes three crucial assumptions about the person being assessed:
+1. they can interpret and understand the questions and their intentions,
+2. they are able to self-reflect, and 
+3. they are able to communicate their answers well enough.
+
+This project aims to cater to the cohort which do not fulfill all of those assumptions, and support the practitioners including psychologists and psychiatrists.
+
+Additionally, we seek improved understanding of a variety of diagnosis, such as bipolar disorder, depression, autism, and more, which often remain undiagnosed or misdiagnosed for years, negatively affecting individuals and communities. 
+
 Previous studies have shown that facial expressions can reflect mental health conditions, e.g. revealing differences in emotional responses between individuals with bipolar disorder and healthy controls which provides a promising direction for further research. Additionally, deep learning and multi-modal approaches have been utilized on video data to classify mental disorders. While these approaches yield encouraging results, they primarily concentrate on predictions without deeper understanding on the subject matter at hand. 
 
-Building on this foundation, our research aims to explore various data modalities, including speech, facial expressions, and behavioral interactions, using standard, and advanced machine learning techniques specifically developed for this purpose. 
+Building on this foundation, we explore various data modalities, including speech, facial expressions, and behavioral interactions, using standard, and advanced machine learning techniques specifically developed for this purpose. 
 These new algorithms, tailored to individual or combined modalities, i.e. multi-modal approaches, are designed to uncover novel insights into the mental disorders. For example, studies on postpartum depression have uncovered asynchrony between mothers and their children. 
 In the future we hope to help with the identification of subgroups within groups of people with the same diagnosis. Those findings can then be employed in personalized healthcare. Ultimately, this could pave the way for automated diagnostics in mental health care, revolutionizing treatment and intervention strategies, and making it more accessible to everyone. 
 
