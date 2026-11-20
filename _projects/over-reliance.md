@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reducing Over-reliance and Fostering Responsible Use 
+title: Reducing Over-reliance and Fostering Responsible Use of Emotion Recognition ML 
 description: DFF project
 img: assets/img/face-heatmap.png
 importance: 2
