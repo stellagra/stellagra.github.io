@@ -16,9 +16,9 @@ Today, most mental health diagnoses still rely on self-reported assessments such
 2. they are able to self-reflect, and 
 3. they are able to communicate their answers well enough.
 
-This project aims to cater to the cohort which do not fulfill all of those assumptions, and support the practitioners including psychologists and psychiatrists.
+This project aims to support those who do not fulfill those assumptions, and support the practitioners including psychologists and psychiatrists.
 
-Additionally, we seek improved understanding of a variety of diagnosis, such as bipolar disorder, depression, autism, and more, which often remain undiagnosed or misdiagnosed for years, negatively affecting individuals and communities. 
+Additionally, we seek improved understanding of diagnosis, such as bipolar disorder, depression, autism, and more, which often remain undiagnosed or misdiagnosed for years, negatively affecting individuals and communities. 
 
 Previous studies have shown that facial expressions can reflect mental health conditions, e.g. revealing differences in emotional responses between individuals with bipolar disorder and healthy controls which provides a promising direction for further research. Additionally, deep learning and multi-modal approaches have been utilized on video data to classify mental disorders. While these approaches yield encouraging results, they primarily concentrate on predictions without deeper understanding on the subject matter at hand. 
 
@@ -37,13 +37,13 @@ In this section I want to highlight funding and different ongoing projects and e
 
 In 2022, I became member of the [Lundbeck Foundation Investigator Network (LFIN)](https://lundbeckfonden.com/apply-grants/the-lundbeck-foundation-investigator-network), where I met [Louise Birkedal Glenthøj](https://research.regionh.dk/da/persons/louise-birkedal-glenth%C3%B8j). As a result in 2023 we were honoured to receive a seed funding grant from the Lundbeck Foundation supporting this line of research for one year.  
 In our joint work we investigated differences in facial expressions between people diagnosed with being UHR (Ultra High-Risk of psychosis) and healthy controls. In 2026, we finally published our related paper, thanks to leading efforts of [Tina Dam Kristensen](https://research.regionh.dk/da/persons/tina-dam-kristensen/) (see below).
-This was right in time before my 4-year membership, and my role as a board member ended, which makes me a proud alumni of the first cohort. 
+This was right in time before my 4-year membership, and my role as a board member ended, which makes me aan alumna of the first cohort. 
 
 ## Pioneer Centre for AI (P1)
 At the end of 2023, I received funding from the [Pioneer Centre for Artificial Intelligence](https://www.aicentre.dk/), and [Sami](https://pure.itu.dk/en/persons/sami-brandt/) and I welcomed our PhD student [Martin Lund Trinhammer](https://pure.itu.dk/da/persons/martin-lund-trinhammer). 
 
 Since August 2025, I am director of the program [Bridging Minds and Machines: AI, HCI & Psychology](https://www.aicentre.dk/p1-programs/bridging-minds-and-machines-ai-hci-psychology). [Louise Birkedal Glenthøj](https://research.regionh.dk/da/persons/louise-birkedal-glenth%C3%B8j), [Niels van Berkel](https://vbn.aau.dk/da/persons/nielsvanberkel/), and I each represent one domain of the multi-disciplinary collaboration. 
-Our main inceptive is to connect researches cross disciplines to tackle challenges with our joint expertise. 
+Our main objective is to connect researches across disciplines to tackle challenges with our joint expertise. 
 So far we have organized a lecture series, and networking meetings. 
 
 ## D3A

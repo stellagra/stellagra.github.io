@@ -3,7 +3,7 @@ layout: page
 title: Underwater Computer Vision and 3D Mapping
 description: Vision for underwater inspection, from image segmentation to 3D mapping with video and sonar.
 img: assets/img/ITU_and_robot_crop.png
-importance: 4
+importance: 3
 category: research
 related_publications: false
 ---
@@ -33,9 +33,9 @@ Potential applications include the inspection of ship hulls, offshore energy ins
 ## Preliminary Related Work
 
 Ongoing work with Olaya Álvarez-Tuñón: 3D Gaussian Splatting for underwater scenes.
-Code and evaluation scripts are [publicly available](https://github.com/olayasturias/uw3dgs).
+See the [project page](https://olayasturias.github.io/uw3dgs/); code and evaluation scripts are [publicly available](https://github.com/olayasturias/uw3dgs).
 
-In ongoing student projects, we explore underwater scene reconstruction, e.g. by evaluating 3D Gaussian Splatting for underwater 3D reconstruction in degraded visual conditions.
+In ongoing student projects, we explore underwater scene reconstruction, e.g. by evaluating 3D Gaussian Splatting in degraded visual conditions underwater
 
 
 
