@@ -10,8 +10,8 @@ related_publications: false
 
 # Motivation
 
-Today, AI is omni-present. As it increasingly becomes part of every day life, people are relying on models to make decisions. However, those models are not always correct.
-We will investigate how humans overly rely on AI. Goals are how to measure it, and what to do about it in particular in facial expression recognition. 
+Today, AI is omni-present. As it increasingly becomes part of every day life, people are relying on models to make decisions. However, those models are not always correct. In this project, we will investigate how humans overly rely on AI. 
+Our goals are to investigate how to measure it, and what to do about it in - particular in applications around facial expression recognition. 
 
 The project brings together expertise in Machine Learning, Computer Vision, Human-Computer Interaction (HCI), and interaction design.
 
@@ -24,6 +24,5 @@ This project is funded by the Independent Research Fund Denmark (DFF).
 ## Team
 - **Principal Investigator:** Jichen Zhu  
 - **Co-Principal Investigator:** Stella Graßhof
-- **Collaborator:** Willem Lennert Antoon van der Maden
 - HCI PhD-candidate Otto Rønnest 
 - Postdoc in xAI/ML (position will be posted here soon)
